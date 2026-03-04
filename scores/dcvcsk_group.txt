@@ -1,346 +1,362 @@
 ['Harshal Patel', 'Shimron Hetmyer', 'Wriddhiman Saha', 'Nicholas Pooran', 'Washington Sundar', 'Ravichandran Ashwin', 'Rahul Tripathi', 'Sunil Narine', 'Avesh Khan', 'Deepak Hooda', 'Mohammed Siraj']
-dc won the toss and chose to bat
-0.1 Moeen Ali to Rahul Tripathi 2 Score: 2/0
-0.2 Moeen Ali to Rahul Tripathi 0 Score: 2/0
-0.3 Moeen Ali to Rahul Tripathi 1 Score: 3/0
-0.4 Moeen Ali to Sunil Narine 1 Score: 4/0
-0.5 Moeen Ali to Rahul Tripathi 0 Score: 4/0
-0.6 Moeen Ali to Rahul Tripathi 1 Score: 5/0
-1.1 Hardik Pandya to Rahul Tripathi Wide Score: 6/0
-1.2 Hardik Pandya to Rahul Tripathi 1 Score: 7/0
-1.3 Hardik Pandya to Sunil Narine 0 Score: 7/0
-1.4 Hardik Pandya to Sunil Narine 0 Score: 7/0
-1.5 Hardik Pandya to Sunil Narine 2 Score: 9/0
-1.6 Hardik Pandya to Sunil Narine 4 Score: 13/0
-1.7 Hardik Pandya to Sunil Narine 0 Score: 13/0
-2.1 Moeen Ali to Rahul Tripathi 0 Score: 13/0
-2.2 Moeen Ali to Rahul Tripathi 6 Score: 19/0
-2.3 Moeen Ali to Rahul Tripathi 1 Score: 20/0
-2.4 Moeen Ali to Sunil Narine 6 Score: 26/0
-2.5 Moeen Ali to Sunil Narine 0 Score: 26/0
-2.6 Moeen Ali to Sunil Narine 1 Score: 27/0
-3.1 Hardik Pandya to Sunil Narine 4 Score: 31/0
-3.2 Hardik Pandya to Sunil Narine 0 Score: 31/0
-3.3 Hardik Pandya to Sunil Narine 1 Score: 32/0
-3.4 Hardik Pandya to Rahul Tripathi 4 Score: 36/0
-3.5 Hardik Pandya to Rahul Tripathi 1 Score: 37/0
-3.6 Hardik Pandya to Sunil Narine 2 Score: 39/0
-4.1 Ravindra Jadeja to Rahul Tripathi 1 Score: 40/0
-4.2 Ravindra Jadeja to Sunil Narine 0 Score: 40/0
-4.3 Ravindra Jadeja to Sunil Narine 4 Score: 44/0
-4.4 Ravindra Jadeja to Sunil Narine 0 Score: 44/0
-4.5 Ravindra Jadeja to Sunil Narine 0 Score: 44/0
-4.6 Ravindra Jadeja to Sunil Narine 1 Score: 45/0
-5.1 Abdul Samad to Sunil Narine 4 Score: 49/0
-5.2 Abdul Samad to Sunil Narine 6 Score: 55/0
-5.3 Abdul Samad to Sunil Narine 4 Score: 59/0
-5.4 Abdul Samad to Sunil Narine 4 Score: 63/0
-5.5 Abdul Samad to Sunil Narine 2 Score: 65/0
-5.6 Abdul Samad to Sunil Narine 6 Score: 71/0
-6.1 Ravindra Jadeja to Rahul Tripathi 0 Score: 71/0
-6.2 Ravindra Jadeja to Rahul Tripathi 0 Score: 71/0
-6.3 Ravindra Jadeja to Rahul Tripathi Wide Score: 72/0
-6.4 Ravindra Jadeja to Rahul Tripathi 1 Score: 73/0
-6.5 Ravindra Jadeja to Sunil Narine 0 Score: 73/0
-6.6 Ravindra Jadeja to Sunil Narine 1 Score: 74/0
-6.7 Ravindra Jadeja to Rahul Tripathi 1 Score: 75/0
-7.1 Abdul Samad to Rahul Tripathi 0 Score: 75/0
-7.2 Abdul Samad to Rahul Tripathi 6 Score: 81/0
-7.3 Abdul Samad to Rahul Tripathi 1 Score: 82/0
-7.4 Abdul Samad to Sunil Narine W Score: 82/1 Bowled
-7.5 Abdul Samad to Wriddhiman Saha 6 Score: 88/1
-7.6 Abdul Samad to Wriddhiman Saha 4 Score: 92/1
-8.1 Ravindra Jadeja to Rahul Tripathi 2 Score: 94/1
-8.2 Ravindra Jadeja to Rahul Tripathi 6 Score: 100/1
-8.3 Ravindra Jadeja to Rahul Tripathi 1 Score: 101/1
-8.4 Ravindra Jadeja to Wriddhiman Saha 0 Score: 101/1
-8.5 Ravindra Jadeja to Wriddhiman Saha 1 Score: 102/1
-8.6 Ravindra Jadeja to Rahul Tripathi W Score: 102/2 Caught by Abdul Samad
-9.1 Abdul Samad to Wriddhiman Saha 1 Score: 103/2
-9.2 Abdul Samad to Nicholas Pooran 6 Score: 109/2
-9.3 Abdul Samad to Nicholas Pooran 0 Score: 109/2
-9.4 Abdul Samad to Nicholas Pooran 2 Score: 111/2
-9.5 Abdul Samad to Nicholas Pooran 0 Score: 111/2
-9.6 Abdul Samad to Nicholas Pooran 0 Score: 111/2
-10.1 Rahul Tewatia to Wriddhiman Saha 1 Score: 112/2
-10.2 Rahul Tewatia to Nicholas Pooran 1 Score: 113/2
-10.3 Rahul Tewatia to Wriddhiman Saha 0 Score: 113/2
-10.4 Rahul Tewatia to Wriddhiman Saha 2 Score: 115/2
-10.5 Rahul Tewatia to Wriddhiman Saha 1 Score: 116/2
-10.6 Rahul Tewatia to Nicholas Pooran 1 Score: 117/2
-11.1 Nitish Rana to Nicholas Pooran 1 Score: 118/2
-11.2 Nitish Rana to Wriddhiman Saha Wide Score: 119/2
-11.3 Nitish Rana to Wriddhiman Saha 0 Score: 119/2
-11.4 Nitish Rana to Wriddhiman Saha 2 Score: 121/2
-11.5 Nitish Rana to Wriddhiman Saha 0 Score: 121/2
-11.6 Nitish Rana to Wriddhiman Saha 6 Score: 127/2
-11.7 Nitish Rana to Wriddhiman Saha 2 Score: 129/2
-12.1 Rahul Tewatia to Nicholas Pooran 2 Score: 131/2
-12.2 Rahul Tewatia to Nicholas Pooran 0 Score: 131/2
-12.3 Rahul Tewatia to Nicholas Pooran 0 Score: 131/2
-12.4 Rahul Tewatia to Nicholas Pooran 4 Score: 135/2
-12.5 Rahul Tewatia to Nicholas Pooran 0 Score: 135/2
-12.6 Rahul Tewatia to Nicholas Pooran 6 Score: 141/2
-13.1 Nitish Rana to Wriddhiman Saha 4 Score: 145/2
-13.2 Nitish Rana to Wriddhiman Saha 1 Score: 146/2
-13.3 Nitish Rana to Nicholas Pooran 4 Score: 150/2
-13.4 Nitish Rana to Nicholas Pooran W Score: 150/3 Caught by Nitish Rana
-13.5 Nitish Rana to Shimron Hetmyer 1 Score: 151/3
-13.6 Nitish Rana to Wriddhiman Saha 1 Score: 152/3
-14.1 Rahul Tewatia to Wriddhiman Saha 0 Score: 152/3
-14.2 Rahul Tewatia to Wriddhiman Saha 1 Score: 153/3
-14.3 Rahul Tewatia to Shimron Hetmyer 0 Score: 153/3
-14.4 Rahul Tewatia to Shimron Hetmyer 1 Score: 154/3
-14.5 Rahul Tewatia to Wriddhiman Saha 1 Score: 155/3
-14.6 Rahul Tewatia to Shimron Hetmyer 0 Score: 155/3
-15.1 Nitish Rana to Wriddhiman Saha 1 Score: 156/3
-15.2 Nitish Rana to Shimron Hetmyer W Score: 156/4 Bowled
-15.3 Nitish Rana to Deepak Hooda 0 Score: 156/4
-15.4 Nitish Rana to Deepak Hooda W Score: 156/5 Caught by Rahul Tewatia
-15.5 Nitish Rana to Harshal Patel 1 Score: 157/5
-15.6 Nitish Rana to Wriddhiman Saha 1 Score: 158/5
-16.1 Rahul Tewatia to Wriddhiman Saha 2 Score: 160/5
-16.2 Rahul Tewatia to Wriddhiman Saha 1 Score: 161/5
-16.3 Rahul Tewatia to Harshal Patel 0 Score: 161/5
-16.4 Rahul Tewatia to Harshal Patel 2 Score: 163/5
-16.5 Rahul Tewatia to Harshal Patel 1 Score: 164/5
-16.6 Rahul Tewatia to Wriddhiman Saha 1 Score: 165/5
-17.1 Hardik Pandya to Wriddhiman Saha 4 Score: 169/5
-17.2 Hardik Pandya to Wriddhiman Saha 6 Score: 175/5
-17.3 Hardik Pandya to Wriddhiman Saha 1 Score: 176/5
-17.4 Hardik Pandya to Harshal Patel 4 Score: 180/5
-17.5 Hardik Pandya to Harshal Patel 0 Score: 180/5
-17.6 Hardik Pandya to Harshal Patel 1 Score: 181/5
-18.1 Ravindra Jadeja to Harshal Patel 1 Score: 182/5
-18.2 Ravindra Jadeja to Wriddhiman Saha 0 Score: 182/5
-18.3 Ravindra Jadeja to Wriddhiman Saha 2 Score: 184/5
-18.4 Ravindra Jadeja to Wriddhiman Saha 0 Score: 184/5
-18.5 Ravindra Jadeja to Wriddhiman Saha 1 Score: 185/5
-18.6 Ravindra Jadeja to Harshal Patel 1 Score: 186/5
-19.1 Hardik Pandya to Harshal Patel 1 Score: 187/5
-19.2 Hardik Pandya to Wriddhiman Saha 4 Score: 191/5
-19.3 Hardik Pandya to Wriddhiman Saha 0 Score: 191/5
-19.4 Hardik Pandya to Wriddhiman Saha 1 Score: 192/5
-19.5 Hardik Pandya to Harshal Patel 4 Score: 196/5
-19.6 Hardik Pandya to Harshal Patel 6 Score: 202/5
+csk won the toss and chose to bat
+0.1 Ravichandran Ashwin to Faf du Plessis 0 Score: 0/0
+0.2 Ravichandran Ashwin to Faf du Plessis 0 Score: 0/0
+0.3 Ravichandran Ashwin to Faf du Plessis 1 Score: 1/0
+0.4 Ravichandran Ashwin to Mayank Agarwal 0 Score: 1/0
+0.5 Ravichandran Ashwin to Mayank Agarwal 1 Score: 2/0
+0.6 Ravichandran Ashwin to Faf du Plessis 0 Score: 2/0
+1.1 Mohammed Siraj to Mayank Agarwal 0 Score: 2/0
+1.2 Mohammed Siraj to Mayank Agarwal Wide Score: 3/0
+1.3 Mohammed Siraj to Mayank Agarwal 0 Score: 3/0
+1.4 Mohammed Siraj to Mayank Agarwal 0 Score: 3/0
+1.5 Mohammed Siraj to Mayank Agarwal 1 Score: 4/0
+1.6 Mohammed Siraj to Faf du Plessis 0 Score: 4/0
+1.7 Mohammed Siraj to Faf du Plessis 0 Score: 4/0
+2.1 Ravichandran Ashwin to Mayank Agarwal 4 Score: 8/0
+2.2 Ravichandran Ashwin to Mayank Agarwal 1 Score: 9/0
+2.3 Ravichandran Ashwin to Faf du Plessis 0 Score: 9/0
+2.4 Ravichandran Ashwin to Faf du Plessis W Score: 9/1 Caught by Mohammed Siraj
+2.5 Ravichandran Ashwin to Nitish Rana 0 Score: 9/1
+2.6 Ravichandran Ashwin to Nitish Rana 4 Score: 13/1
+3.1 Mohammed Siraj to Mayank Agarwal 1 Score: 14/1
+3.2 Mohammed Siraj to Nitish Rana 0 Score: 14/1
+3.3 Mohammed Siraj to Nitish Rana Wide Score: 15/1
+3.4 Mohammed Siraj to Nitish Rana 0 Score: 15/1
+3.5 Mohammed Siraj to Nitish Rana 0 Score: 15/1
+3.6 Mohammed Siraj to Nitish Rana 1 Score: 16/1
+3.7 Mohammed Siraj to Mayank Agarwal 0 Score: 16/1
+4.1 Washington Sundar to Nitish Rana 0 Score: 16/1
+4.2 Washington Sundar to Nitish Rana 0 Score: 16/1
+4.3 Washington Sundar to Nitish Rana 4 Score: 20/1
+4.4 Washington Sundar to Nitish Rana 4 Score: 24/1
+4.5 Washington Sundar to Nitish Rana 0 Score: 24/1
+4.6 Washington Sundar to Nitish Rana 0 Score: 24/1
+5.1 Harshal Patel to Mayank Agarwal 0 Score: 24/1
+5.2 Harshal Patel to Mayank Agarwal 1 Score: 25/1
+5.3 Harshal Patel to Nitish Rana 0 Score: 25/1
+5.4 Harshal Patel to Nitish Rana 1 Score: 26/1
+5.5 Harshal Patel to Mayank Agarwal Wide Score: 27/1
+5.6 Harshal Patel to Mayank Agarwal 0 Score: 27/1
+5.7 Harshal Patel to Mayank Agarwal 1 Score: 28/1
+6.1 Washington Sundar to Mayank Agarwal 0 Score: 28/1
+6.2 Washington Sundar to Mayank Agarwal 4 Score: 32/1
+6.3 Washington Sundar to Mayank Agarwal 4 Score: 36/1
+6.4 Washington Sundar to Mayank Agarwal 1 Score: 37/1
+6.5 Washington Sundar to Nitish Rana Wide Score: 38/1
+6.6 Washington Sundar to Nitish Rana 1 Score: 39/1
+6.7 Washington Sundar to Mayank Agarwal 1 Score: 40/1
+7.1 Harshal Patel to Mayank Agarwal Wide Score: 41/1
+7.2 Harshal Patel to Mayank Agarwal 1 Score: 42/1
+7.3 Harshal Patel to Nitish Rana Wide Score: 43/1
+7.4 Harshal Patel to Nitish Rana 2 Score: 45/1
+7.5 Harshal Patel to Nitish Rana 4 Score: 49/1
+7.6 Harshal Patel to Nitish Rana 0 Score: 49/1
+7.7 Harshal Patel to Nitish Rana 4 Score: 53/1
+7.8 Harshal Patel to Nitish Rana 1 Score: 54/1
+8.1 Washington Sundar to Nitish Rana 1 Score: 55/1
+8.2 Washington Sundar to Mayank Agarwal 1 Score: 56/1
+8.3 Washington Sundar to Nitish Rana 1 Score: 57/1
+8.4 Washington Sundar to Mayank Agarwal 0 Score: 57/1
+8.5 Washington Sundar to Mayank Agarwal 6 Score: 63/1
+8.6 Washington Sundar to Mayank Agarwal 0 Score: 63/1
+9.1 Harshal Patel to Nitish Rana 0 Score: 63/1
+9.2 Harshal Patel to Nitish Rana 6 Score: 69/1
+9.3 Harshal Patel to Nitish Rana 2 Score: 71/1
+9.4 Harshal Patel to Nitish Rana 0 Score: 71/1
+9.5 Harshal Patel to Nitish Rana 0 Score: 71/1
+9.6 Harshal Patel to Nitish Rana W Score: 71/2 Caught by Deepak Hooda
+10.1 Washington Sundar to Mayank Agarwal 6 Score: 77/2
+10.2 Washington Sundar to Mayank Agarwal 1 Score: 78/2
+10.3 Washington Sundar to Ambati Rayudu 1 Score: 79/2
+10.4 Washington Sundar to Mayank Agarwal Wide Score: 80/2
+10.5 Washington Sundar to Mayank Agarwal 1 Score: 81/2
+10.6 Washington Sundar to Ambati Rayudu 1 Score: 82/2
+10.7 Washington Sundar to Mayank Agarwal 1 Score: 83/2
+11.1 Sunil Narine to Mayank Agarwal 1 Score: 84/2
+11.2 Sunil Narine to Ambati Rayudu 1 Score: 85/2
+11.3 Sunil Narine to Mayank Agarwal W Score: 85/3 Caught by Deepak Hooda
+11.4 Sunil Narine to Moeen Ali 0 Score: 85/3
+11.5 Sunil Narine to Moeen Ali 0 Score: 85/3
+11.6 Sunil Narine to Moeen Ali 1 Score: 86/3
+12.1 Ravichandran Ashwin to Moeen Ali 0 Score: 86/3
+12.2 Ravichandran Ashwin to Moeen Ali 1 Score: 87/3
+12.3 Ravichandran Ashwin to Ambati Rayudu 0 Score: 87/3
+12.4 Ravichandran Ashwin to Ambati Rayudu 0 Score: 87/3
+12.5 Ravichandran Ashwin to Ambati Rayudu 0 Score: 87/3
+12.6 Ravichandran Ashwin to Ambati Rayudu 2 Score: 89/3
+13.1 Sunil Narine to Moeen Ali 1 Score: 90/3
+13.2 Sunil Narine to Ambati Rayudu 1 Score: 91/3
+13.3 Sunil Narine to Moeen Ali Wide Score: 92/3
+13.4 Sunil Narine to Moeen Ali 1 Score: 93/3
+13.5 Sunil Narine to Ambati Rayudu 2 Score: 95/3
+13.6 Sunil Narine to Ambati Rayudu 1 Score: 96/3
+13.7 Sunil Narine to Moeen Ali 1 Score: 97/3
+14.1 Ravichandran Ashwin to Moeen Ali 1 Score: 98/3
+14.2 Ravichandran Ashwin to Ambati Rayudu 1 Score: 99/3
+14.3 Ravichandran Ashwin to Moeen Ali 0 Score: 99/3
+14.4 Ravichandran Ashwin to Moeen Ali 1 Score: 100/3
+14.5 Ravichandran Ashwin to Ambati Rayudu 2 Score: 102/3
+14.6 Ravichandran Ashwin to Ambati Rayudu 3 Score: 105/3
+15.1 Sunil Narine to Ambati Rayudu 0 Score: 105/3
+15.2 Sunil Narine to Ambati Rayudu 0 Score: 105/3
+15.3 Sunil Narine to Ambati Rayudu 0 Score: 105/3
+15.4 Sunil Narine to Ambati Rayudu 1 Score: 106/3
+15.5 Sunil Narine to Moeen Ali 1 Score: 107/3
+15.6 Sunil Narine to Ambati Rayudu 0 Score: 107/3
+16.1 Harshal Patel to Moeen Ali 1 Score: 108/3
+16.2 Harshal Patel to Ambati Rayudu 2 Score: 110/3
+16.3 Harshal Patel to Ambati Rayudu 1 Score: 111/3
+16.4 Harshal Patel to Moeen Ali 1 Score: 112/3
+16.5 Harshal Patel to Ambati Rayudu 1 Score: 113/3
+16.6 Harshal Patel to Moeen Ali 0 Score: 113/3
+17.1 Mohammed Siraj to Ambati Rayudu 0 Score: 113/3
+17.2 Mohammed Siraj to Ambati Rayudu 6 Score: 119/3
+17.3 Mohammed Siraj to Ambati Rayudu 0 Score: 119/3
+17.4 Mohammed Siraj to Ambati Rayudu W Score: 119/4 Caught by Deepak Hooda
+17.5 Mohammed Siraj to Rishabh Pant Wide Score: 120/4
+17.6 Mohammed Siraj to Rishabh Pant 0 Score: 120/4
+17.7 Mohammed Siraj to Rishabh Pant 0 Score: 120/4
+18.1 Avesh Khan to Moeen Ali 0 Score: 120/4
+18.2 Avesh Khan to Moeen Ali W Score: 120/5 Lbw
+18.3 Avesh Khan to Abdul Samad 4 Score: 124/5
+18.4 Avesh Khan to Abdul Samad W Score: 126/5 Run Out!
+18.5 Avesh Khan to Kieron Pollard 4 Score: 130/5
+18.6 Avesh Khan to Kieron Pollard 0 Score: 130/5
+19.1 Mohammed Siraj to Rishabh Pant 1 Score: 131/5
+19.2 Mohammed Siraj to Kieron Pollard 4 Score: 135/5
+19.3 Mohammed Siraj to Kieron Pollard 1 Score: 136/5
+19.4 Mohammed Siraj to Rishabh Pant 0 Score: 136/5
+19.5 Mohammed Siraj to Rishabh Pant 1 Score: 137/5
+19.6 Mohammed Siraj to Kieron Pollard Wide Score: 138/5
+19.7 Mohammed Siraj to Kieron Pollard 4 Score: 142/5
++--------------+--------+---------+--------+-----------------------------+
+| Player       |   Runs |   Balls | SR     | Out                         |
++==============+========+=========+========+=============================+
+| F du Plessis |      1 |       8 | 12.5   | c Mohammed Siraj b R Ashwin |
++--------------+--------+---------+--------+-----------------------------+
+| MA Agarwal   |     38 |      30 | 126.67 | c DJ Hooda b SP Narine      |
++--------------+--------+---------+--------+-----------------------------+
+| N Rana       |     36 |      28 | 128.57 | c DJ Hooda b HV Patel       |
++--------------+--------+---------+--------+-----------------------------+
+| AT Rayudu    |     26 |      25 | 104.0  | c DJ Hooda b Mohammed Siraj |
++--------------+--------+---------+--------+-----------------------------+
+| MM Ali       |     10 |      17 | 58.82  | lbw b Avesh Khan            |
++--------------+--------+---------+--------+-----------------------------+
+| RR Pant      |      2 |       5 | 40.0   | Not out                     |
++--------------+--------+---------+--------+-----------------------------+
+| Abdul Samad  |      6 |       2 | 300.0  | Not out                     |
++--------------+--------+---------+--------+-----------------------------+
+| KA Pollard   |     13 |       5 | 260.0  | Not out                     |
++--------------+--------+---------+--------+-----------------------------+
+| HH Pandya    |      0 |       0 | DNB    |                             |
++--------------+--------+---------+--------+-----------------------------+
+| R Tewatia    |      0 |       0 | DNB    |                             |
++--------------+--------+---------+--------+-----------------------------+
+| RA Jadeja    |      0 |       0 | DNB    |                             |
++--------------+--------+---------+--------+-----------------------------+
++-------------------+--------+---------+-----------+-------+
+| Player            |   Runs |   Overs |   Wickets | Eco   |
++===================+========+=========+===========+=======+
+| HV Patel          |     32 |       4 |         1 | 8.0   |
++-------------------+--------+---------+-----------+-------+
+| SO Hetmyer        |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| WP Saha           |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| N Pooran          |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| Washington Sundar |     41 |       4 |         0 | 10.25 |
++-------------------+--------+---------+-----------+-------+
+| R Ashwin          |     22 |       4 |         1 | 5.5   |
++-------------------+--------+---------+-----------+-------+
+| RA Tripathi       |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| SP Narine         |     13 |       3 |         1 | 4.33  |
++-------------------+--------+---------+-----------+-------+
+| Avesh Khan        |     10 |       1 |         1 | 10.0  |
++-------------------+--------+---------+-----------+-------+
+| DJ Hooda          |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| Mohammed Siraj    |     24 |       4 |         1 | 6.0   |
++-------------------+--------+---------+-----------+-------+
+0.1 Moeen Ali to Rahul Tripathi 0 Score: 0/0
+0.2 Moeen Ali to Rahul Tripathi 4 Score: 4/0
+0.3 Moeen Ali to Rahul Tripathi 1 Score: 5/0
+0.4 Moeen Ali to Sunil Narine 2 Score: 7/0
+0.5 Moeen Ali to Sunil Narine 1 Score: 8/0
+0.6 Moeen Ali to Rahul Tripathi 0 Score: 8/0
+1.1 Hardik Pandya to Sunil Narine 1 Score: 9/0
+1.2 Hardik Pandya to Rahul Tripathi 0 Score: 9/0
+1.3 Hardik Pandya to Rahul Tripathi 1 Score: 10/0
+1.4 Hardik Pandya to Sunil Narine 0 Score: 10/0
+1.5 Hardik Pandya to Sunil Narine 1 Score: 11/0
+1.6 Hardik Pandya to Rahul Tripathi 0 Score: 11/0
+2.1 Moeen Ali to Sunil Narine 0 Score: 11/0
+2.2 Moeen Ali to Sunil Narine 4 Score: 15/0
+2.3 Moeen Ali to Sunil Narine 1 Score: 16/0
+2.4 Moeen Ali to Rahul Tripathi 0 Score: 16/0
+2.5 Moeen Ali to Rahul Tripathi 0 Score: 16/0
+2.6 Moeen Ali to Rahul Tripathi 0 Score: 16/0
+3.1 Hardik Pandya to Sunil Narine 0 Score: 16/0
+3.2 Hardik Pandya to Sunil Narine 1 Score: 17/0
+3.3 Hardik Pandya to Rahul Tripathi 1 Score: 18/0
+3.4 Hardik Pandya to Sunil Narine W Score: 18/1 Caught by Rahul Tewatia
+3.5 Hardik Pandya to Wriddhiman Saha 0 Score: 18/1
+3.6 Hardik Pandya to Wriddhiman Saha Wide Score: 19/1
+3.7 Hardik Pandya to Wriddhiman Saha 0 Score: 19/1
+4.1 Rahul Tewatia to Rahul Tripathi 1 Score: 20/1
+4.2 Rahul Tewatia to Wriddhiman Saha 1 Score: 21/1
+4.3 Rahul Tewatia to Rahul Tripathi 1 Score: 22/1
+4.4 Rahul Tewatia to Wriddhiman Saha 0 Score: 22/1
+4.5 Rahul Tewatia to Wriddhiman Saha Wide Score: 23/1
+4.6 Rahul Tewatia to Wriddhiman Saha 1 Score: 24/1
+4.7 Rahul Tewatia to Rahul Tripathi 1 Score: 25/1
+5.1 Ravindra Jadeja to Rahul Tripathi 1 Score: 26/1
+5.2 Ravindra Jadeja to Wriddhiman Saha 1 Score: 27/1
+5.3 Ravindra Jadeja to Rahul Tripathi 1 Score: 28/1
+5.4 Ravindra Jadeja to Wriddhiman Saha 1 Score: 29/1
+5.5 Ravindra Jadeja to Rahul Tripathi 1 Score: 30/1
+5.6 Ravindra Jadeja to Wriddhiman Saha 0 Score: 30/1
+6.1 Rahul Tewatia to Rahul Tripathi 4 Score: 34/1
+6.2 Rahul Tewatia to Rahul Tripathi 0 Score: 34/1
+6.3 Rahul Tewatia to Rahul Tripathi 0 Score: 34/1
+6.4 Rahul Tewatia to Rahul Tripathi 1 Score: 35/1
+6.5 Rahul Tewatia to Wriddhiman Saha 0 Score: 35/1
+6.6 Rahul Tewatia to Wriddhiman Saha 0 Score: 35/1
+7.1 Ravindra Jadeja to Rahul Tripathi 1 Score: 36/1
+7.2 Ravindra Jadeja to Wriddhiman Saha 1 Score: 37/1
+7.3 Ravindra Jadeja to Rahul Tripathi 6 Score: 43/1
+7.4 Ravindra Jadeja to Rahul Tripathi 0 Score: 43/1
+7.5 Ravindra Jadeja to Rahul Tripathi W Score: 43/2 Caught by Abdul Samad
+7.6 Ravindra Jadeja to Nicholas Pooran 4 Score: 47/2
+8.1 Rahul Tewatia to Wriddhiman Saha 0 Score: 47/2
+8.2 Rahul Tewatia to Wriddhiman Saha 0 Score: 47/2
+8.3 Rahul Tewatia to Wriddhiman Saha 0 Score: 47/2
+8.4 Rahul Tewatia to Wriddhiman Saha 1 Score: 48/2
+8.5 Rahul Tewatia to Nicholas Pooran 4 Score: 52/2
+8.6 Rahul Tewatia to Nicholas Pooran 0 Score: 52/2
+9.1 Ravindra Jadeja to Wriddhiman Saha 6 Score: 58/2
+9.2 Ravindra Jadeja to Wriddhiman Saha 2 Score: 60/2
+9.3 Ravindra Jadeja to Wriddhiman Saha 0 Score: 60/2
+9.4 Ravindra Jadeja to Wriddhiman Saha 1 Score: 61/2
+9.5 Ravindra Jadeja to Nicholas Pooran 1 Score: 62/2
+9.6 Ravindra Jadeja to Wriddhiman Saha 0 Score: 62/2
+10.1 Rahul Tewatia to Nicholas Pooran 1 Score: 63/2
+10.2 Rahul Tewatia to Wriddhiman Saha 4 Score: 67/2
+10.3 Rahul Tewatia to Wriddhiman Saha 1 Score: 68/2
+10.4 Rahul Tewatia to Nicholas Pooran 0 Score: 68/2
+10.5 Rahul Tewatia to Nicholas Pooran 6 Score: 74/2
+10.6 Rahul Tewatia to Nicholas Pooran 0 Score: 74/2
+11.1 Nitish Rana to Wriddhiman Saha W Score: 74/3 Lbw
+11.2 Nitish Rana to Shimron Hetmyer Wide Score: 75/3
+11.3 Nitish Rana to Shimron Hetmyer 0 Score: 75/3
+11.4 Nitish Rana to Shimron Hetmyer 1 Score: 76/3
+11.5 Nitish Rana to Nicholas Pooran Wide Score: 77/3
+11.6 Nitish Rana to Nicholas Pooran 0 Score: 77/3
+11.7 Nitish Rana to Nicholas Pooran 1 Score: 78/3
+11.8 Nitish Rana to Shimron Hetmyer 0 Score: 78/3
+12.1 Hardik Pandya to Nicholas Pooran 1 Score: 79/3
+12.2 Hardik Pandya to Shimron Hetmyer 0 Score: 79/3
+12.3 Hardik Pandya to Shimron Hetmyer 1 Score: 80/3
+12.4 Hardik Pandya to Nicholas Pooran 6 Score: 86/3
+12.5 Hardik Pandya to Nicholas Pooran 0 Score: 86/3
+12.6 Hardik Pandya to Nicholas Pooran 1 Score: 87/3
+13.1 Nitish Rana to Nicholas Pooran 0 Score: 87/3
+13.2 Nitish Rana to Nicholas Pooran 1 Score: 88/3
+13.3 Nitish Rana to Shimron Hetmyer 0 Score: 88/3
+13.4 Nitish Rana to Shimron Hetmyer 2 Score: 90/3
+13.5 Nitish Rana to Shimron Hetmyer 6 Score: 96/3
+13.6 Nitish Rana to Shimron Hetmyer 1 Score: 97/3
+14.1 Kieron Pollard to Shimron Hetmyer 0 Score: 97/3
+14.2 Kieron Pollard to Shimron Hetmyer 0 Score: 97/3
+14.3 Kieron Pollard to Shimron Hetmyer 1 Score: 98/3
+14.4 Kieron Pollard to Nicholas Pooran 4 Score: 102/3
+14.5 Kieron Pollard to Nicholas Pooran 0 Score: 102/3
+14.6 Kieron Pollard to Nicholas Pooran 1 Score: 103/3
+15.1 Nitish Rana to Nicholas Pooran 4 Score: 107/3
+15.2 Nitish Rana to Nicholas Pooran Wide Score: 108/3
+15.3 Nitish Rana to Nicholas Pooran 1 Score: 109/3
+15.4 Nitish Rana to Shimron Hetmyer 1 Score: 110/3
+15.5 Nitish Rana to Nicholas Pooran 1 Score: 111/3
+15.6 Nitish Rana to Shimron Hetmyer 0 Score: 111/3
+15.7 Nitish Rana to Shimron Hetmyer Wide Score: 112/3
+15.8 Nitish Rana to Shimron Hetmyer 1 Score: 113/3
+16.1 Kieron Pollard to Shimron Hetmyer 1 Score: 114/3
+16.2 Kieron Pollard to Nicholas Pooran 0 Score: 114/3
+16.3 Kieron Pollard to Nicholas Pooran 0 Score: 114/3
+16.4 Kieron Pollard to Nicholas Pooran 1 Score: 115/3
+16.5 Kieron Pollard to Shimron Hetmyer W Score: 115/4 Caught by Moeen Ali
+16.6 Kieron Pollard to Deepak Hooda 0 Score: 115/4
+17.1 Hardik Pandya to Nicholas Pooran 6 Score: 121/4
+17.2 Hardik Pandya to Nicholas Pooran 2 Score: 123/4
+17.3 Hardik Pandya to Nicholas Pooran 0 Score: 123/4
+17.4 Hardik Pandya to Nicholas Pooran W Score: 123/5 Caught by Ravindra Jadeja
+17.5 Hardik Pandya to Harshal Patel 1 Score: 124/5
+17.6 Hardik Pandya to Deepak Hooda W Score: 124/6 Caught by Rahul Tewatia
+18.1 Ravindra Jadeja to Harshal Patel 0 Score: 124/6
+18.2 Ravindra Jadeja to Harshal Patel W Score: 124/7 Lbw
+18.3 Ravindra Jadeja to Washington Sundar 1 Score: 125/7
+18.4 Ravindra Jadeja to Washington Sundar 1 Score: 126/7
+18.5 Ravindra Jadeja to Washington Sundar 1 Score: 127/7
+18.6 Ravindra Jadeja to Washington Sundar 1 Score: 128/7
+19.1 Abdul Samad to Washington Sundar 6 Score: 134/7
+19.2 Abdul Samad to Washington Sundar W Score: 134/8 Caught by Hardik Pandya
+19.3 Abdul Samad to Ravichandran Ashwin W Score: 134/8 Run Out!
+19.4 Abdul Samad to Mohammed Siraj Wide Score: 135/8
+19.5 Abdul Samad to Mohammed Siraj 4 Score: 139/8
+19.6 Abdul Samad to Mohammed Siraj 1 Score: 140/8
+19.7 Abdul Samad to Washington Sundar 0 Score: 140/8
+csk won by 2 runs
 +-------------------+--------+---------+--------+---------------------------+
 | Player            |   Runs |   Balls | SR     | Out                       |
 +===================+========+=========+========+===========================+
-| HV Patel          |     22 |      12 | 183.33 | Not out                   |
+| RA Tripathi       |     25 |      25 | 100.0  | c Abdul Samad b RA Jadeja |
 +-------------------+--------+---------+--------+---------------------------+
-| SO Hetmyer        |      2 |       5 | 40.0   | bowled b N Rana           |
+| SP Narine         |     11 |      11 | 100.0  | c R Tewatia b HH Pandya   |
 +-------------------+--------+---------+--------+---------------------------+
-| WP Saha           |     59 |      35 | 168.57 | Not out                   |
+| WP Saha           |     20 |      23 | 86.96  | lbw b N Rana              |
 +-------------------+--------+---------+--------+---------------------------+
-| N Pooran          |     27 |      16 | 168.75 | c N Rana b N Rana         |
+| N Pooran          |     46 |      29 | 158.62 | c RA Jadeja b HH Pandya   |
 +-------------------+--------+---------+--------+---------------------------+
-| Washington Sundar |      0 |       0 | DNB    |                           |
+| SO Hetmyer        |     15 |      17 | 88.24  | c MM Ali b KA Pollard     |
 +-------------------+--------+---------+--------+---------------------------+
-| R Ashwin          |      0 |       0 | DNB    |                           |
+| DJ Hooda          |      0 |       2 | 0.0    | c R Tewatia b HH Pandya   |
 +-------------------+--------+---------+--------+---------------------------+
-| RA Tripathi       |     36 |      23 | 156.52 | c Abdul Samad b RA Jadeja |
+| HV Patel          |      1 |       3 | 33.33  | lbw b RA Jadeja           |
 +-------------------+--------+---------+--------+---------------------------+
-| SP Narine         |     53 |      27 | 196.3  | bowled b Abdul Samad      |
+| Washington Sundar |     10 |       7 | 142.86 | Not out                   |
++-------------------+--------+---------+--------+---------------------------+
+| Washington Sundar |     10 |       7 | 142.86 | Not out                   |
++-------------------+--------+---------+--------+---------------------------+
+| R Ashwin          |      0 |       1 | 0.0    | Not out                   |
++-------------------+--------+---------+--------+---------------------------+
+| Mohammed Siraj    |      5 |       2 | 250.0  | Not out                   |
 +-------------------+--------+---------+--------+---------------------------+
 | Avesh Khan        |      0 |       0 | DNB    |                           |
-+-------------------+--------+---------+--------+---------------------------+
-| DJ Hooda          |      0 |       2 | 0.0    | c R Tewatia b N Rana      |
-+-------------------+--------+---------+--------+---------------------------+
-| Mohammed Siraj    |      0 |       0 | DNB    |                           |
 +-------------------+--------+---------+--------+---------------------------+
 +--------------+--------+---------+-----------+-------+
 | Player       |   Runs |   Overs |   Wickets | Eco   |
 +==============+========+=========+===========+=======+
-| KA Pollard   |      0 |       0 |         0 | NA    |
+| KA Pollard   |      8 |       2 |         1 | 4.0   |
 +--------------+--------+---------+-----------+-------+
-| HH Pandya    |     52 |       4 |         0 | 13.0  |
+| HH Pandya    |     24 |       4 |         3 | 6.0   |
 +--------------+--------+---------+-----------+-------+
 | MA Agarwal   |      0 |       0 |         0 | NA    |
 +--------------+--------+---------+-----------+-------+
-| MM Ali       |     19 |       2 |         0 | 9.5   |
+| MM Ali       |     13 |       2 |         0 | 6.5   |
 +--------------+--------+---------+-----------+-------+
 | R Tewatia    |     28 |       4 |         0 | 7.0   |
 +--------------+--------+---------+-----------+-------+
 | AT Rayudu    |      0 |       0 |         0 | NA    |
 +--------------+--------+---------+-----------+-------+
-| N Rana       |     26 |       3 |         3 | 8.67  |
+| N Rana       |     24 |       3 |         1 | 8.0   |
 +--------------+--------+---------+-----------+-------+
 | RR Pant      |      0 |       0 |         0 | NA    |
 +--------------+--------+---------+-----------+-------+
 | F du Plessis |      0 |       0 |         0 | NA    |
 +--------------+--------+---------+-----------+-------+
-| Abdul Samad  |     52 |       3 |         1 | 17.33 |
+| Abdul Samad  |     12 |       1 |         1 | 12.0  |
 +--------------+--------+---------+-----------+-------+
-| RA Jadeja    |     25 |       4 |         1 | 6.25  |
+| RA Jadeja    |     31 |       4 |         2 | 7.75  |
 +--------------+--------+---------+-----------+-------+
-0.1 Ravichandran Ashwin to Faf du Plessis 4 Score: 4/0
-0.2 Ravichandran Ashwin to Faf du Plessis W Score: 4/1 Caught by Avesh Khan
-0.3 Ravichandran Ashwin to Mayank Agarwal 2 Score: 6/1
-0.4 Ravichandran Ashwin to Mayank Agarwal 1 Score: 7/1
-0.5 Ravichandran Ashwin to Mayank Agarwal 4 Score: 11/1
-0.6 Ravichandran Ashwin to Mayank Agarwal 4 Score: 15/1
-1.1 Mohammed Siraj to Mayank Agarwal 0 Score: 15/1
-1.2 Mohammed Siraj to Mayank Agarwal 0 Score: 15/1
-1.3 Mohammed Siraj to Mayank Agarwal 0 Score: 15/1
-1.4 Mohammed Siraj to Mayank Agarwal 2 Score: 17/1
-1.5 Mohammed Siraj to Mayank Agarwal 1 Score: 18/1
-1.6 Mohammed Siraj to Mayank Agarwal 2 Score: 20/1
-2.1 Ravichandran Ashwin to Mayank Agarwal 0 Score: 20/1
-2.2 Ravichandran Ashwin to Mayank Agarwal 1 Score: 21/1
-2.3 Ravichandran Ashwin to Mayank Agarwal 0 Score: 21/1
-2.4 Ravichandran Ashwin to Mayank Agarwal 1 Score: 22/1
-2.5 Ravichandran Ashwin to Mayank Agarwal 4 Score: 26/1
-2.6 Ravichandran Ashwin to Mayank Agarwal 0 Score: 26/1
-3.1 Mohammed Siraj to Mayank Agarwal 0 Score: 26/1
-3.2 Mohammed Siraj to Mayank Agarwal 4 Score: 30/1
-3.3 Mohammed Siraj to Mayank Agarwal 1 Score: 31/1
-3.4 Mohammed Siraj to Mayank Agarwal 2 Score: 33/1
-3.5 Mohammed Siraj to Mayank Agarwal 0 Score: 33/1
-3.6 Mohammed Siraj to Mayank Agarwal 6 Score: 39/1
-4.1 Washington Sundar to Mayank Agarwal 6 Score: 45/1
-4.2 Washington Sundar to Mayank Agarwal 1 Score: 46/1
-4.3 Washington Sundar to Mayank Agarwal 1 Score: 47/1
-4.4 Washington Sundar to Mayank Agarwal 1 Score: 48/1
-4.5 Washington Sundar to Mayank Agarwal 0 Score: 48/1
-4.6 Washington Sundar to Mayank Agarwal 0 Score: 48/1
-5.1 Harshal Patel to Mayank Agarwal 1 Score: 49/1
-5.2 Harshal Patel to Mayank Agarwal 0 Score: 49/1
-5.3 Harshal Patel to Mayank Agarwal 1 Score: 50/1
-5.4 Harshal Patel to Mayank Agarwal 1 Score: 51/1
-5.5 Harshal Patel to Mayank Agarwal 1 Score: 52/1
-5.6 Harshal Patel to Mayank Agarwal 1 Score: 53/1
-6.1 Washington Sundar to Mayank Agarwal 0 Score: 53/1
-6.2 Washington Sundar to Mayank Agarwal 4 Score: 57/1
-6.3 Washington Sundar to Mayank Agarwal W Score: 57/2 Stumped
-6.4 Washington Sundar to Nitish Rana 1 Score: 58/2
-6.5 Washington Sundar to Mayank Agarwal 0 Score: 58/2
-6.6 Washington Sundar to Mayank Agarwal 1 Score: 59/2
-7.1 Harshal Patel to Mayank Agarwal W Score: 59/3 Caught by Avesh Khan
-7.2 Harshal Patel to Ambati Rayudu 4 Score: 63/3
-7.3 Harshal Patel to Ambati Rayudu 1 Score: 64/3
-7.4 Harshal Patel to Nitish Rana 0 Score: 64/3
-7.5 Harshal Patel to Nitish Rana 4 Score: 68/3
-7.6 Harshal Patel to Nitish Rana 2 Score: 70/3
-8.1 Washington Sundar to Ambati Rayudu 4 Score: 74/3
-8.2 Washington Sundar to Ambati Rayudu 0 Score: 74/3
-8.3 Washington Sundar to Ambati Rayudu 1 Score: 75/3
-8.4 Washington Sundar to Nitish Rana 6 Score: 81/3
-8.5 Washington Sundar to Nitish Rana 0 Score: 81/3
-8.6 Washington Sundar to Nitish Rana 1 Score: 82/3
-9.1 Harshal Patel to Nitish Rana 1 Score: 83/3
-9.2 Harshal Patel to Ambati Rayudu 0 Score: 83/3
-9.3 Harshal Patel to Ambati Rayudu 1 Score: 84/3
-9.4 Harshal Patel to Nitish Rana 0 Score: 84/3
-9.5 Harshal Patel to Nitish Rana 4 Score: 88/3
-9.6 Harshal Patel to Nitish Rana 1 Score: 89/3
-10.1 Washington Sundar to Nitish Rana 0 Score: 89/3
-10.2 Washington Sundar to Nitish Rana 1 Score: 90/3
-10.3 Washington Sundar to Ambati Rayudu 1 Score: 91/3
-10.4 Washington Sundar to Nitish Rana W Score: 91/4 Caught by Deepak Hooda
-10.5 Washington Sundar to Moeen Ali 1 Score: 92/4
-10.6 Washington Sundar to Ambati Rayudu 1 Score: 93/4
-11.1 Sunil Narine to Ambati Rayudu 1 Score: 94/4
-11.2 Sunil Narine to Moeen Ali 2 Score: 96/4
-11.3 Sunil Narine to Moeen Ali Wide Score: 97/4
-11.4 Sunil Narine to Moeen Ali 0 Score: 97/4
-11.5 Sunil Narine to Moeen Ali 0 Score: 97/4
-11.6 Sunil Narine to Moeen Ali 0 Score: 97/4
-11.7 Sunil Narine to Moeen Ali 0 Score: 97/4
-12.1 Deepak Hooda to Ambati Rayudu 1 Score: 98/4
-12.2 Deepak Hooda to Moeen Ali 1 Score: 99/4
-12.3 Deepak Hooda to Ambati Rayudu 6 Score: 105/4
-12.4 Deepak Hooda to Ambati Rayudu 0 Score: 105/4
-12.5 Deepak Hooda to Ambati Rayudu 0 Score: 105/4
-12.6 Deepak Hooda to Ambati Rayudu 1 Score: 106/4
-13.1 Sunil Narine to Ambati Rayudu 0 Score: 106/4
-13.2 Sunil Narine to Ambati Rayudu 0 Score: 106/4
-13.3 Sunil Narine to Ambati Rayudu 0 Score: 106/4
-13.4 Sunil Narine to Ambati Rayudu 6 Score: 112/4
-13.5 Sunil Narine to Ambati Rayudu 6 Score: 118/4
-13.6 Sunil Narine to Ambati Rayudu 1 Score: 119/4
-14.1 Deepak Hooda to Ambati Rayudu 1 Score: 120/4
-14.2 Deepak Hooda to Moeen Ali W Score: 120/5 Stumped
-14.3 Deepak Hooda to Rishabh Pant 1 Score: 121/5
-14.4 Deepak Hooda to Ambati Rayudu 6 Score: 127/5
-14.5 Deepak Hooda to Ambati Rayudu W Score: 127/6 Caught by Sunil Narine
-14.6 Deepak Hooda to Abdul Samad 1 Score: 128/6
-15.1 Sunil Narine to Abdul Samad 2 Score: 130/6
-15.2 Sunil Narine to Abdul Samad Wide Score: 131/6
-15.3 Sunil Narine to Abdul Samad 1 Score: 132/6
-15.4 Sunil Narine to Rishabh Pant 1 Score: 133/6
-15.5 Sunil Narine to Abdul Samad 1 Score: 134/6
-15.6 Sunil Narine to Rishabh Pant 1 Score: 135/6
-15.7 Sunil Narine to Abdul Samad 1 Score: 136/6
-16.1 Deepak Hooda to Abdul Samad 4 Score: 140/6
-16.2 Deepak Hooda to Abdul Samad 6 Score: 146/6
-16.3 Deepak Hooda to Abdul Samad W Score: 146/7 Caught by Avesh Khan
-16.4 Deepak Hooda to Kieron Pollard 1 Score: 147/7
-16.5 Deepak Hooda to Rishabh Pant 6 Score: 153/7
-16.6 Deepak Hooda to Rishabh Pant 1 Score: 154/7
-17.1 Mohammed Siraj to Rishabh Pant 1 Score: 155/7
-17.2 Mohammed Siraj to Kieron Pollard 1 Score: 156/7
-17.3 Mohammed Siraj to Rishabh Pant 1 Score: 157/7
-17.4 Mohammed Siraj to Kieron Pollard 0 Score: 157/7
-17.5 Mohammed Siraj to Kieron Pollard 6 Score: 163/7
-17.6 Mohammed Siraj to Kieron Pollard Wide Score: 164/7
-17.7 Mohammed Siraj to Kieron Pollard 1 Score: 165/7
-18.1 Avesh Khan to Kieron Pollard 0 Score: 165/7
-18.2 Avesh Khan to Kieron Pollard 0 Score: 165/7
-18.3 Avesh Khan to Kieron Pollard 0 Score: 165/7
-18.4 Avesh Khan to Kieron Pollard W Score: 165/8 Caught by Deepak Hooda
-18.5 Avesh Khan to Hardik Pandya 6 Score: 171/8
-18.6 Avesh Khan to Hardik Pandya W Score: 171/9 Bowled
-19.1 Mohammed Siraj to Rishabh Pant 4 Score: 175/9
-19.2 Mohammed Siraj to Rishabh Pant W Score: 176/10 Run Out!
-ALL OUT
-dc won by 26 runs
-+--------------+--------+---------+--------+--------------------------------+
-| Player       |   Runs |   Balls | SR     | Out                            |
-+==============+========+=========+========+================================+
-| KA Pollard   |      9 |       9 | 100.0  | c DJ Hooda b Avesh Khan        |
-+--------------+--------+---------+--------+--------------------------------+
-| HH Pandya    |      6 |       2 | 300.0  | bowled b Avesh Khan            |
-+--------------+--------+---------+--------+--------------------------------+
-| MA Agarwal   |     54 |      40 | 135.0  | stumped b Washington Sundar    |
-+--------------+--------+---------+--------+--------------------------------+
-| MM Ali       |      4 |       8 | 50.0   | stumped b DJ Hooda             |
-+--------------+--------+---------+--------+--------------------------------+
-| R Tewatia    |      0 |       0 | DNB    |                                |
-+--------------+--------+---------+--------+--------------------------------+
-| AT Rayudu    |     42 |      24 | 175.0  | c SP Narine b DJ Hooda         |
-+--------------+--------+---------+--------+--------------------------------+
-| N Rana       |     21 |      14 | 150.0  | c DJ Hooda b Washington Sundar |
-+--------------+--------+---------+--------+--------------------------------+
-| RR Pant      |     17 |       9 | 188.89 | Run out                        |
-+--------------+--------+---------+--------+--------------------------------+
-| F du Plessis |      4 |       2 | 200.0  | c Avesh Khan b R Ashwin        |
-+--------------+--------+---------+--------+--------------------------------+
-| Abdul Samad  |     16 |       8 | 200.0  | c Avesh Khan b DJ Hooda        |
-+--------------+--------+---------+--------+--------------------------------+
-| RA Jadeja    |      0 |       0 | DNB    |                                |
-+--------------+--------+---------+--------+--------------------------------+
-+-------------------+--------+---------+-----------+-------+
-| Player            |   Runs |   Overs |   Wickets | Eco   |
-+===================+========+=========+===========+=======+
-| HV Patel          |     23 |     3   |         1 | 7.67  |
-+-------------------+--------+---------+-----------+-------+
-| SO Hetmyer        |      0 |     0   |         0 | NA    |
-+-------------------+--------+---------+-----------+-------+
-| WP Saha           |      0 |     0   |         0 | NA    |
-+-------------------+--------+---------+-----------+-------+
-| N Pooran          |      0 |     0   |         0 | NA    |
-+-------------------+--------+---------+-----------+-------+
-| Washington Sundar |     31 |     4   |         2 | 7.75  |
-+-------------------+--------+---------+-----------+-------+
-| R Ashwin          |     21 |     2   |         1 | 10.5  |
-+-------------------+--------+---------+-----------+-------+
-| RA Tripathi       |      0 |     0   |         0 | NA    |
-+-------------------+--------+---------+-----------+-------+
-| SP Narine         |     25 |     3   |         0 | 8.33  |
-+-------------------+--------+---------+-----------+-------+
-| Avesh Khan        |      6 |     1   |         2 | 6.0   |
-+-------------------+--------+---------+-----------+-------+
-| DJ Hooda          |     36 |     3   |         3 | 12.0  |
-+-------------------+--------+---------+-----------+-------+
-| Mohammed Siraj    |     34 |     3.2 |         0 | 10.2  |
-+-------------------+--------+---------+-----------+-------+
