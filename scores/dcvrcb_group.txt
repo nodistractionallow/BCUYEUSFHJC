@@ -1,0 +1,347 @@
+['Harshal Patel', 'Shimron Hetmyer', 'Wriddhiman Saha', 'Nicholas Pooran', 'Washington Sundar', 'Ravichandran Ashwin', 'Rahul Tripathi', 'Sunil Narine', 'Avesh Khan', 'Deepak Hooda', 'Mohammed Siraj']
+dc won the toss and chose to bat
+0.1 Harpreet Brar to Rahul Tripathi 1 Score: 1/0
+0.2 Harpreet Brar to Sunil Narine 0 Score: 1/0
+0.3 Harpreet Brar to Sunil Narine 1 Score: 2/0
+0.4 Harpreet Brar to Rahul Tripathi 4 Score: 6/0
+0.5 Harpreet Brar to Rahul Tripathi 0 Score: 6/0
+0.6 Harpreet Brar to Rahul Tripathi 1 Score: 7/0
+1.1 Khaleel Ahmed to Rahul Tripathi Wide Score: 8/0
+1.2 Khaleel Ahmed to Rahul Tripathi 1 Score: 9/0
+1.3 Khaleel Ahmed to Sunil Narine 1 Score: 10/0
+1.4 Khaleel Ahmed to Rahul Tripathi 1 Score: 11/0
+1.5 Khaleel Ahmed to Sunil Narine 0 Score: 11/0
+1.6 Khaleel Ahmed to Sunil Narine 0 Score: 11/0
+1.7 Khaleel Ahmed to Sunil Narine 4 Score: 15/0
+2.1 Harpreet Brar to Rahul Tripathi 0 Score: 15/0
+2.2 Harpreet Brar to Rahul Tripathi 0 Score: 15/0
+2.3 Harpreet Brar to Rahul Tripathi 0 Score: 15/0
+2.4 Harpreet Brar to Rahul Tripathi 0 Score: 15/0
+2.5 Harpreet Brar to Rahul Tripathi 4 Score: 19/0
+2.6 Harpreet Brar to Rahul Tripathi 4 Score: 23/0
+3.1 Khaleel Ahmed to Sunil Narine 4 Score: 27/0
+3.2 Khaleel Ahmed to Sunil Narine 6 Score: 33/0
+3.3 Khaleel Ahmed to Sunil Narine 0 Score: 33/0
+3.4 Khaleel Ahmed to Sunil Narine 4 Score: 37/0
+3.5 Khaleel Ahmed to Sunil Narine W Score: 37/1 Caught by Varun Chakravarthy
+3.6 Khaleel Ahmed to Wriddhiman Saha 0 Score: 37/1
+4.1 Varun Chakravarthy to Rahul Tripathi 1 Score: 38/1
+4.2 Varun Chakravarthy to Wriddhiman Saha 1 Score: 39/1
+4.3 Varun Chakravarthy to Rahul Tripathi 1 Score: 40/1
+4.4 Varun Chakravarthy to Wriddhiman Saha 4 Score: 44/1
+4.5 Varun Chakravarthy to Wriddhiman Saha 1 Score: 45/1
+4.6 Varun Chakravarthy to Rahul Tripathi 4 Score: 49/1
+5.1 Dan Christian to Wriddhiman Saha 0 Score: 49/1
+5.2 Dan Christian to Wriddhiman Saha 4 Score: 53/1
+5.3 Dan Christian to Wriddhiman Saha 1 Score: 54/1
+5.4 Dan Christian to Rahul Tripathi Wide Score: 55/1
+5.5 Dan Christian to Rahul Tripathi 4 Score: 59/1
+5.6 Dan Christian to Rahul Tripathi 1 Score: 60/1
+5.7 Dan Christian to Wriddhiman Saha 1 Score: 61/1
+6.1 Varun Chakravarthy to Wriddhiman Saha 1 Score: 62/1
+6.2 Varun Chakravarthy to Rahul Tripathi 4 Score: 66/1
+6.3 Varun Chakravarthy to Rahul Tripathi 0 Score: 66/1
+6.4 Varun Chakravarthy to Rahul Tripathi 6 Score: 72/1
+6.5 Varun Chakravarthy to Rahul Tripathi 0 Score: 72/1
+6.6 Varun Chakravarthy to Rahul Tripathi 1 Score: 73/1
+7.1 Dan Christian to Rahul Tripathi 1 Score: 74/1
+7.2 Dan Christian to Wriddhiman Saha 1 Score: 75/1
+7.3 Dan Christian to Rahul Tripathi 0 Score: 75/1
+7.4 Dan Christian to Rahul Tripathi 0 Score: 75/1
+7.5 Dan Christian to Rahul Tripathi 0 Score: 75/1
+7.6 Dan Christian to Rahul Tripathi 4 Score: 79/1
+8.1 Varun Chakravarthy to Wriddhiman Saha 2 Score: 81/1
+8.2 Varun Chakravarthy to Wriddhiman Saha W Score: 81/2 Bowled
+8.3 Varun Chakravarthy to Nicholas Pooran 1 Score: 82/2
+8.4 Varun Chakravarthy to Rahul Tripathi 0 Score: 82/2
+8.5 Varun Chakravarthy to Rahul Tripathi 1 Score: 83/2
+8.6 Varun Chakravarthy to Nicholas Pooran 4 Score: 87/2
+9.1 Dan Christian to Rahul Tripathi 2 Score: 89/2
+9.2 Dan Christian to Rahul Tripathi 1 Score: 90/2
+9.3 Dan Christian to Nicholas Pooran 2 Score: 92/2
+9.4 Dan Christian to Nicholas Pooran 0 Score: 92/2
+9.5 Dan Christian to Nicholas Pooran 0 Score: 92/2
+9.6 Dan Christian to Nicholas Pooran 0 Score: 92/2
+10.1 Riyan Parag to Rahul Tripathi 6 Score: 98/2
+10.2 Riyan Parag to Rahul Tripathi 1 Score: 99/2
+10.3 Riyan Parag to Nicholas Pooran 1 Score: 100/2
+10.4 Riyan Parag to Rahul Tripathi 1 Score: 101/2
+10.5 Riyan Parag to Nicholas Pooran 1 Score: 102/2
+10.6 Riyan Parag to Rahul Tripathi 6 Score: 108/2
+11.1 Dan Christian to Nicholas Pooran 1 Score: 109/2
+11.2 Dan Christian to Rahul Tripathi 1 Score: 110/2
+11.3 Dan Christian to Nicholas Pooran 0 Score: 110/2
+11.4 Dan Christian to Nicholas Pooran 1 Score: 111/2
+11.5 Dan Christian to Rahul Tripathi W Score: 111/3 Bowled
+11.6 Dan Christian to Shimron Hetmyer 1 Score: 112/3
+12.1 Riyan Parag to Shimron Hetmyer 1 Score: 113/3
+12.2 Riyan Parag to Nicholas Pooran 1 Score: 114/3
+12.3 Riyan Parag to Shimron Hetmyer 1 Score: 115/3
+12.4 Riyan Parag to Nicholas Pooran 1 Score: 116/3
+12.5 Riyan Parag to Shimron Hetmyer 6 Score: 122/3
+12.6 Riyan Parag to Shimron Hetmyer 1 Score: 123/3
+13.1 Yuzvendra Chahal to Shimron Hetmyer 0 Score: 123/3
+13.2 Yuzvendra Chahal to Shimron Hetmyer 0 Score: 123/3
+13.3 Yuzvendra Chahal to Shimron Hetmyer 0 Score: 123/3
+13.4 Yuzvendra Chahal to Shimron Hetmyer 0 Score: 123/3
+13.5 Yuzvendra Chahal to Shimron Hetmyer 2 Score: 125/3
+13.6 Yuzvendra Chahal to Shimron Hetmyer 1 Score: 126/3
+14.1 Riyan Parag to Shimron Hetmyer W Score: 126/4 Run Out!
+14.2 Riyan Parag to Deepak Hooda 0 Score: 126/4
+14.3 Riyan Parag to Deepak Hooda 2 Score: 128/4
+14.4 Riyan Parag to Deepak Hooda 1 Score: 129/4
+14.5 Riyan Parag to Nicholas Pooran 0 Score: 129/4
+14.6 Riyan Parag to Nicholas Pooran 1 Score: 130/4
+15.1 Yuzvendra Chahal to Nicholas Pooran 1 Score: 131/4
+15.2 Yuzvendra Chahal to Deepak Hooda 0 Score: 131/4
+15.3 Yuzvendra Chahal to Deepak Hooda 4 Score: 135/4
+15.4 Yuzvendra Chahal to Deepak Hooda 6 Score: 141/4
+15.5 Yuzvendra Chahal to Deepak Hooda 0 Score: 141/4
+15.6 Yuzvendra Chahal to Deepak Hooda 4 Score: 145/4
+16.1 Riyan Parag to Nicholas Pooran 6 Score: 151/4
+16.2 Riyan Parag to Nicholas Pooran 0 Score: 151/4
+16.3 Riyan Parag to Nicholas Pooran 1 Score: 152/4
+16.4 Riyan Parag to Deepak Hooda 1 Score: 153/4
+16.5 Riyan Parag to Nicholas Pooran 0 Score: 153/4
+16.6 Riyan Parag to Nicholas Pooran 0 Score: 153/4
+17.1 Yuzvendra Chahal to Deepak Hooda 2 Score: 155/4
+17.2 Yuzvendra Chahal to Deepak Hooda 4 Score: 159/4
+17.3 Yuzvendra Chahal to Deepak Hooda 1 Score: 160/4
+17.4 Yuzvendra Chahal to Nicholas Pooran 0 Score: 160/4
+17.5 Yuzvendra Chahal to Nicholas Pooran 1 Score: 161/4
+17.6 Yuzvendra Chahal to Deepak Hooda 1 Score: 162/4
+18.1 Khaleel Ahmed to Deepak Hooda 2 Score: 164/4
+18.2 Khaleel Ahmed to Deepak Hooda 1 Score: 165/4
+18.3 Khaleel Ahmed to Nicholas Pooran 0 Score: 165/4
+18.4 Khaleel Ahmed to Nicholas Pooran 6 Score: 171/4
+18.5 Khaleel Ahmed to Nicholas Pooran 1 Score: 172/4
+18.6 Khaleel Ahmed to Deepak Hooda W Score: 172/5 Caught by Lalit Yadav
+19.1 Yuzvendra Chahal to Nicholas Pooran 2 Score: 174/5
+19.2 Yuzvendra Chahal to Nicholas Pooran 1 Score: 175/5
+19.3 Yuzvendra Chahal to Harshal Patel 1 Score: 176/5
+19.4 Yuzvendra Chahal to Nicholas Pooran 1 Score: 177/5
+19.5 Yuzvendra Chahal to Harshal Patel 0 Score: 177/5
+19.6 Yuzvendra Chahal to Harshal Patel 6 Score: 183/5
++-------------------+--------+---------+--------+--------------------------+
+| Player            |   Runs |   Balls | SR     | Out                      |
++===================+========+=========+========+==========================+
+| HV Patel          |      7 |       3 | 233.33 | Not out                  |
++-------------------+--------+---------+--------+--------------------------+
+| SO Hetmyer        |     13 |      12 | 108.33 | Run out                  |
++-------------------+--------+---------+--------+--------------------------+
+| WP Saha           |     16 |      12 | 133.33 | bowled b CV Varun        |
++-------------------+--------+---------+--------+--------------------------+
+| N Pooran          |     34 |      29 | 117.24 | Not out                  |
++-------------------+--------+---------+--------+--------------------------+
+| Washington Sundar |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
+| R Ashwin          |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
+| RA Tripathi       |     62 |      37 | 167.57 | bowled b DT Christian    |
++-------------------+--------+---------+--------+--------------------------+
+| SP Narine         |     20 |      11 | 181.82 | c CV Varun b KK Ahmed    |
++-------------------+--------+---------+--------+--------------------------+
+| Avesh Khan        |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
+| DJ Hooda          |     29 |      16 | 181.25 | c Lalit Yadav b KK Ahmed |
++-------------------+--------+---------+--------+--------------------------+
+| Mohammed Siraj    |      0 |       0 | DNB    |                          |
++-------------------+--------+---------+--------+--------------------------+
++-----------------+--------+---------+-----------+-------+
+| Player          |   Runs |   Overs |   Wickets | Eco   |
++=================+========+=========+===========+=======+
+| M Shahrukh Khan |      0 |       0 |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| V Kohli         |      0 |       0 |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| Harpreet Brar   |     15 |       2 |         0 | 7.5   |
++-----------------+--------+---------+-----------+-------+
+| RG Sharma       |      0 |       0 |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| R Parag         |     39 |       4 |         0 | 9.75  |
++-----------------+--------+---------+-----------+-------+
+| KK Ahmed        |     32 |       3 |         2 | 10.67 |
++-----------------+--------+---------+-----------+-------+
+| Lalit Yadav     |      0 |       0 |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| KL Rahul        |      0 |       0 |         0 | NA    |
++-----------------+--------+---------+-----------+-------+
+| YS Chahal       |     38 |       4 |         0 | 9.5   |
++-----------------+--------+---------+-----------+-------+
+| DT Christian    |     27 |       4 |         1 | 6.75  |
++-----------------+--------+---------+-----------+-------+
+| CV Varun        |     32 |       3 |         1 | 10.67 |
++-----------------+--------+---------+-----------+-------+
+0.1 Ravichandran Ashwin to KL Rahul 2 Score: 2/0
+0.2 Ravichandran Ashwin to KL Rahul 2 Score: 4/0
+0.3 Ravichandran Ashwin to KL Rahul 1 Score: 5/0
+0.4 Ravichandran Ashwin to Virat Kohli 4 Score: 9/0
+0.5 Ravichandran Ashwin to Virat Kohli 1 Score: 10/0
+0.6 Ravichandran Ashwin to KL Rahul 1 Score: 11/0
+1.1 Mohammed Siraj to KL Rahul 0 Score: 11/0
+1.2 Mohammed Siraj to KL Rahul 0 Score: 11/0
+1.3 Mohammed Siraj to KL Rahul 1 Score: 12/0
+1.4 Mohammed Siraj to Virat Kohli 0 Score: 12/0
+1.5 Mohammed Siraj to Virat Kohli W Score: 12/1 Bowled
+1.6 Mohammed Siraj to Rohit Sharma 0 Score: 12/1
+2.1 Avesh Khan to KL Rahul 4 Score: 16/1
+2.2 Avesh Khan to KL Rahul 0 Score: 16/1
+2.3 Avesh Khan to KL Rahul 1 Score: 17/1
+2.4 Avesh Khan to Rohit Sharma 0 Score: 17/1
+2.5 Avesh Khan to Rohit Sharma 6 Score: 23/1
+2.6 Avesh Khan to Rohit Sharma 1 Score: 24/1
+3.1 Mohammed Siraj to Rohit Sharma 0 Score: 24/1
+3.2 Mohammed Siraj to Rohit Sharma 0 Score: 24/1
+3.3 Mohammed Siraj to Rohit Sharma 4 Score: 28/1
+3.4 Mohammed Siraj to Rohit Sharma 0 Score: 28/1
+3.5 Mohammed Siraj to Rohit Sharma 0 Score: 28/1
+3.6 Mohammed Siraj to Rohit Sharma 1 Score: 29/1
+4.1 Washington Sundar to Rohit Sharma 6 Score: 35/1
+4.2 Washington Sundar to Rohit Sharma 6 Score: 41/1
+4.3 Washington Sundar to Rohit Sharma 1 Score: 42/1
+4.4 Washington Sundar to KL Rahul 1 Score: 43/1
+4.5 Washington Sundar to Rohit Sharma 1 Score: 44/1
+4.6 Washington Sundar to KL Rahul 4 Score: 48/1
+5.1 Sunil Narine to Rohit Sharma 1 Score: 49/1
+5.2 Sunil Narine to KL Rahul Wide Score: 50/1
+5.3 Sunil Narine to KL Rahul 1 Score: 51/1
+5.4 Sunil Narine to Rohit Sharma 1 Score: 52/1
+5.5 Sunil Narine to KL Rahul 1 Score: 53/1
+5.6 Sunil Narine to Rohit Sharma 1 Score: 54/1
+5.7 Sunil Narine to KL Rahul 0 Score: 54/1
+6.1 Washington Sundar to Rohit Sharma 0 Score: 54/1
+6.2 Washington Sundar to Rohit Sharma 0 Score: 54/1
+6.3 Washington Sundar to Rohit Sharma 0 Score: 54/1
+6.4 Washington Sundar to Rohit Sharma 1 Score: 55/1
+6.5 Washington Sundar to KL Rahul 0 Score: 55/1
+6.6 Washington Sundar to KL Rahul 0 Score: 55/1
+7.1 Sunil Narine to Rohit Sharma 0 Score: 55/1
+7.2 Sunil Narine to Rohit Sharma W Score: 57/2 Run Out!
+7.3 Sunil Narine to Lalit Yadav 0 Score: 57/2
+7.4 Sunil Narine to Lalit Yadav 1 Score: 58/2
+7.5 Sunil Narine to KL Rahul 1 Score: 59/2
+7.6 Sunil Narine to Lalit Yadav 1 Score: 60/2
+8.1 Washington Sundar to Lalit Yadav 6 Score: 66/2
+8.2 Washington Sundar to Lalit Yadav W Score: 66/3 Caught by Deepak Hooda
+8.3 Washington Sundar to Riyan Parag 1 Score: 67/3
+8.4 Washington Sundar to KL Rahul 0 Score: 67/3
+8.5 Washington Sundar to KL Rahul 0 Score: 67/3
+8.6 Washington Sundar to KL Rahul 1 Score: 68/3
+9.1 Sunil Narine to KL Rahul 1 Score: 69/3
+9.2 Sunil Narine to Riyan Parag 0 Score: 69/3
+9.3 Sunil Narine to Riyan Parag 1 Score: 70/3
+9.4 Sunil Narine to KL Rahul 0 Score: 70/3
+9.5 Sunil Narine to KL Rahul 0 Score: 70/3
+9.6 Sunil Narine to KL Rahul 6 Score: 76/3
+10.1 Washington Sundar to Riyan Parag 1 Score: 77/3
+10.2 Washington Sundar to KL Rahul 1 Score: 78/3
+10.3 Washington Sundar to Riyan Parag 1 Score: 79/3
+10.4 Washington Sundar to KL Rahul 1 Score: 80/3
+10.5 Washington Sundar to Riyan Parag 0 Score: 80/3
+10.6 Washington Sundar to Riyan Parag 1 Score: 81/3
+11.1 Sunil Narine to Riyan Parag 0 Score: 81/3
+11.2 Sunil Narine to Riyan Parag W Score: 81/4 Bowled
+11.3 Sunil Narine to Shahrukh Khan 1 Score: 82/4
+11.4 Sunil Narine to KL Rahul 1 Score: 83/4
+11.5 Sunil Narine to Shahrukh Khan 0 Score: 83/4
+11.6 Sunil Narine to Shahrukh Khan 1 Score: 84/4
+12.1 Ravichandran Ashwin to Shahrukh Khan 0 Score: 84/4
+12.2 Ravichandran Ashwin to Shahrukh Khan 1 Score: 85/4
+12.3 Ravichandran Ashwin to KL Rahul 0 Score: 85/4
+12.4 Ravichandran Ashwin to KL Rahul 0 Score: 85/4
+12.5 Ravichandran Ashwin to KL Rahul 0 Score: 85/4
+12.6 Ravichandran Ashwin to KL Rahul 1 Score: 86/4
+13.1 Deepak Hooda to KL Rahul 1 Score: 87/4
+13.2 Deepak Hooda to Shahrukh Khan 1 Score: 88/4
+13.3 Deepak Hooda to KL Rahul 0 Score: 88/4
+13.4 Deepak Hooda to KL Rahul 1 Score: 89/4
+13.5 Deepak Hooda to Shahrukh Khan 0 Score: 89/4
+13.6 Deepak Hooda to Shahrukh Khan 1 Score: 90/4
+14.1 Ravichandran Ashwin to Shahrukh Khan 4 Score: 94/4
+14.2 Ravichandran Ashwin to Shahrukh Khan 0 Score: 94/4
+14.3 Ravichandran Ashwin to Shahrukh Khan 1 Score: 95/4
+14.4 Ravichandran Ashwin to KL Rahul W Score: 95/5 Caught by Mohammed Siraj
+14.5 Ravichandran Ashwin to Dan Christian 0 Score: 95/5
+14.6 Ravichandran Ashwin to Dan Christian Wide Score: 96/5
+14.7 Ravichandran Ashwin to Dan Christian 1 Score: 97/5
+15.1 Deepak Hooda to Dan Christian 0 Score: 97/5
+15.2 Deepak Hooda to Dan Christian 6 Score: 103/5
+15.3 Deepak Hooda to Dan Christian 6 Score: 109/5
+15.4 Deepak Hooda to Dan Christian 1 Score: 110/5
+15.5 Deepak Hooda to Shahrukh Khan W Score: 110/6 Caught by Washington Sundar
+15.6 Deepak Hooda to Harpreet Brar 1 Score: 111/6
+16.1 Ravichandran Ashwin to Harpreet Brar 1 Score: 112/6
+16.2 Ravichandran Ashwin to Dan Christian 0 Score: 112/6
+16.3 Ravichandran Ashwin to Dan Christian 6 Score: 118/6
+16.4 Ravichandran Ashwin to Dan Christian 6 Score: 124/6
+16.5 Ravichandran Ashwin to Dan Christian 0 Score: 124/6
+16.6 Ravichandran Ashwin to Dan Christian 0 Score: 124/6
+17.1 Mohammed Siraj to Harpreet Brar 0 Score: 124/6
+17.2 Mohammed Siraj to Harpreet Brar 6 Score: 130/6
+17.3 Mohammed Siraj to Harpreet Brar 1 Score: 131/6
+17.4 Mohammed Siraj to Dan Christian 0 Score: 131/6
+17.5 Mohammed Siraj to Dan Christian 1 Score: 132/6
+17.6 Mohammed Siraj to Harpreet Brar 1 Score: 133/6
+18.1 Avesh Khan to Harpreet Brar 4 Score: 137/6
+18.2 Avesh Khan to Harpreet Brar 4 Score: 141/6
+18.3 Avesh Khan to Harpreet Brar W Score: 141/7 Caught by Sunil Narine
+18.4 Avesh Khan to Yuzvendra Chahal 6 Score: 147/7
+18.5 Avesh Khan to Yuzvendra Chahal 6 Score: 153/7
+18.6 Avesh Khan to Yuzvendra Chahal 0 Score: 153/7
+19.1 Mohammed Siraj to Dan Christian 0 Score: 153/7
+19.2 Mohammed Siraj to Dan Christian 0 Score: 153/7
+19.3 Mohammed Siraj to Dan Christian 4 Score: 157/7
+19.4 Mohammed Siraj to Dan Christian 1 Score: 158/7
+19.5 Mohammed Siraj to Yuzvendra Chahal W Score: 158/8 Run Out!
+19.6 Mohammed Siraj to Varun Chakravarthy 1 Score: 159/8
+dc won by 24 runs
++-----------------+--------+---------+--------+--------------------------------+
+| Player          |   Runs |   Balls | SR     | Out                            |
++=================+========+=========+========+================================+
+| M Shahrukh Khan |     10 |      12 | 83.33  | c Washington Sundar b DJ Hooda |
++-----------------+--------+---------+--------+--------------------------------+
+| V Kohli         |      5 |       4 | 125.0  | bowled b Mohammed Siraj        |
++-----------------+--------+---------+--------+--------------------------------+
+| Harpreet Brar   |     18 |       9 | 200.0  | c SP Narine b Avesh Khan       |
++-----------------+--------+---------+--------+--------------------------------+
+| RG Sharma       |     32 |      23 | 139.13 | Run out                        |
++-----------------+--------+---------+--------+--------------------------------+
+| R Parag         |      5 |       9 | 55.56  | bowled b SP Narine             |
++-----------------+--------+---------+--------+--------------------------------+
+| KK Ahmed        |      0 |       0 | DNB    |                                |
++-----------------+--------+---------+--------+--------------------------------+
+| Lalit Yadav     |      8 |       5 | 160.0  | c DJ Hooda b Washington Sundar |
++-----------------+--------+---------+--------+--------------------------------+
+| KL Rahul        |     34 |      36 | 94.44  | c Mohammed Siraj b R Ashwin    |
++-----------------+--------+---------+--------+--------------------------------+
+| YS Chahal       |     12 |       4 | 300.0  | Run out                        |
++-----------------+--------+---------+--------+--------------------------------+
+| DT Christian    |     32 |      17 | 188.24 | Not out                        |
++-----------------+--------+---------+--------+--------------------------------+
+| CV Varun        |      1 |       1 | 100.0  | Not out                        |
++-----------------+--------+---------+--------+--------------------------------+
++-------------------+--------+---------+-----------+-------+
+| Player            |   Runs |   Overs |   Wickets | Eco   |
++===================+========+=========+===========+=======+
+| HV Patel          |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| SO Hetmyer        |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| WP Saha           |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| N Pooran          |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| Washington Sundar |     33 |       4 |         1 | 8.25  |
++-------------------+--------+---------+-----------+-------+
+| R Ashwin          |     33 |       4 |         1 | 8.25  |
++-------------------+--------+---------+-----------+-------+
+| RA Tripathi       |      0 |       0 |         0 | NA    |
++-------------------+--------+---------+-----------+-------+
+| SP Narine         |     22 |       4 |         1 | 5.5   |
++-------------------+--------+---------+-----------+-------+
+| Avesh Khan        |     32 |       2 |         1 | 16.0  |
++-------------------+--------+---------+-----------+-------+
+| DJ Hooda          |     18 |       2 |         1 | 9.0   |
++-------------------+--------+---------+-----------+-------+
+| Mohammed Siraj    |     21 |       4 |         1 | 5.25  |
++-------------------+--------+---------+-----------+-------+
