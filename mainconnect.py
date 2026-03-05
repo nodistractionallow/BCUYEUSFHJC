@@ -304,7 +304,6 @@ def innings1(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
     def playerDismissed(player):
         nonlocal batter1, batter2, onStrike, batting_playing_order, fow_data
         fow_data.append({"wicket": wickets + 1, "runs": runs, "player": player["player"]["playerInitials"], "over": f"{balls // 6}.{balls % 6}"})
-        nonlocal batter1, batter2, onStrike
         # print("OUT", player['player']['playerInitials'])
         if(wickets == 10):
             print("ALL OUT")
@@ -1278,7 +1277,6 @@ def innings2(batting, bowling, battingName, bowlingName, pace, spin, outfield, d
     def playerDismissed(player):
         nonlocal batter1, batter2, onStrike, targetChased, batting_playing_order, fow_data
         fow_data.append({"wicket": wickets + 1, "runs": runs, "player": player["player"]["playerInitials"], "over": f"{balls // 6}.{balls % 6}"})
-        nonlocal batter1, batter2, onStrike, targetChased
         # print("OUT", player['player']['playerInitials'])
         if(wickets == 10):
             print("ALL OUT")
