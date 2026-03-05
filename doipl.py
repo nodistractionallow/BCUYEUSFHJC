@@ -21,7 +21,7 @@ bowlingInfo = {}
 # Initialize points table
 for team in teams:
     points[team] = {
-        "P": 0, "W": 0, "L": 0, "T": 0,
+        "P": 0, "W": 0, "L": 0, "SO": 0,
         "runsScored": 0, "ballsFaced": 0,
         "runsConceded": 0, "ballsBowled": 0,
         "pts": 0
@@ -96,11 +96,11 @@ def display_points_table():
         nrr = 0
         if data['ballsFaced'] > 0 and data['ballsBowled'] > 0:
             nrr = (data['runsScored'] / data['ballsFaced']) * 6 - (data['runsConceded'] / data['ballsBowled']) * 6
-        row = [team.upper(), data['P'], data['W'], data['L'], round(nrr, 2), data['pts']]
+        row = [team.upper(), data['P'], data['W'], data['L'], data['SO'], round(nrr, 2), data['pts']]
         pointsTabulate.append(row)
-    pointsTabulate = sorted(pointsTabulate, key=lambda x: (x[5], x[4]), reverse=True)
+    pointsTabulate = sorted(pointsTabulate, key=lambda x: (x[6], x[5]), reverse=True)
     print("\nCurrent Points Table:")
-    print(tabulate(pointsTabulate, headers=["Team", "Played", "Won", "Lost", "NRR", "Points"], tablefmt="grid"))
+    print(tabulate(pointsTabulate, headers=["Team", "Played", "Won", "Lost", "Super Over", "NRR", "Points"], tablefmt="grid"))
 
 def display_top_players():
     battingTabulate = []
@@ -125,7 +125,7 @@ def display_top_players():
     print("\nTop 3 Bowlers:")
     print(tabulate(bowlingTabulate, headers=["Player", "Wickets", "Economy"], tablefmt="grid"))
 
-def display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num):
+def display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data=None):
     print(f"\n--- {team_name.upper()} Scorecard: Innings {innings_num} ---")
 
     # Batting Scorecard
@@ -175,7 +175,12 @@ def display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num):
     print("\nBowling:")
     print(tabulate(bowlerTabulate, headers=["Player", "Overs", "Runs", "Wickets", "Economy"], tablefmt="grid"))
 
-def display_ball_by_ball(innings_log, innings_num, team_name, runs, balls, wickets, bat_tracker, bowl_tracker):
+    if fow_data:
+        print("\nFall of Wickets:")
+        fow_str = ", ".join([f"{f['wicket']}-{f['runs']} ({f['player']}, {f['over']} ov)" for f in fow_data])
+        print(fow_str)
+
+def display_ball_by_ball(innings_log, innings_num, team_name, runs, balls, wickets, bat_tracker, bowl_tracker, fow_data=None):
     print(f"\n--- Innings {innings_num}: {team_name} Batting ---")
 
     milestones_reached = set()
@@ -212,26 +217,54 @@ def display_ball_by_ball(innings_log, innings_num, team_name, runs, balls, wicke
     if innings_num != "SO":
         print(f"\nInnings Total: {runs}/{wickets} in {overs} overs")
         print(random.choice(commentary_lines['innings_end']))
-        display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num)
+        display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data)
+
+def generate_schedule(teams):
+    all_matches = []
+    for i in range(len(teams)):
+        for j in range(i + 1, len(teams)):
+            all_matches.append((teams[i], teams[j]))
+
+    # Try to shuffle until constraint is met (no two consecutive matches for same team)
+    # This is a simple backtracking or retry approach
+    for _ in range(100):
+        random.shuffle(all_matches)
+        valid = True
+        for k in range(len(all_matches) - 1):
+            t1, t2 = all_matches[k]
+            t3, t4 = all_matches[k+1]
+            if t1 in (t3, t4) or t2 in (t3, t4):
+                valid = False
+                break
+        if valid:
+            return all_matches
+    return all_matches # fallback if hard to find
 
 def run_tournament():
     global battingf, bowlingf
+
+    schedule = generate_schedule(teams)
+    print("\n--- IPL TOURNAMENT SCHEDULE ---")
+    schedule_table = []
+    for idx, (t1, t2) in enumerate(schedule):
+        schedule_table.append([f"Match {idx+1}", f"{t1.upper()} vs {t2.upper()}"])
+    print(tabulate(schedule_table, headers=["Match No", "Fixtures"], tablefmt="grid"))
+    input("\nPress Enter to start the league stage...")
+
     # League Matches
-    for i in range(len(teams)):
-        for j in range(i + 1, len(teams)):
-            team1, team2 = teams[i], teams[j]
+    for team1, team2 in schedule:
             print(f"\nMatch: {team1.upper()} vs {team2.upper()}")
 
             try:
-                input("Press Enter to start the match...")
+                input(f"Press Enter to start {team1.upper()} vs {team2.upper()}...")
                 print(random.choice(commentary_lines['start']))
 
                 resList = game(False, team1, team2)
 
                 # Display ball-by-ball and innings summary for both innings
-                for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key in [
-                    ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker'),
-                    ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker')
+                for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key, fow_key in [
+                    ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker', 'innings1Fow'),
+                    ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker', 'innings2Fow')
                 ]:
                     display_ball_by_ball(
                         resList[innings],
@@ -241,7 +274,8 @@ def run_tournament():
                         resList[balls_key],
                         max([event['wickets'] for event in resList[innings]], default=0),
                         resList[bat_tracker_key],
-                        resList[bowl_tracker_key]
+                        resList[bowl_tracker_key],
+                        resList.get(fow_key)
                     )
 
                 if resList.get('superOverLog'):
@@ -300,6 +334,9 @@ def run_tournament():
                 points[winner]['W'] += 1
                 points[loser]['L'] += 1
                 points[winner]['pts'] += 2
+                if resList.get('superOverLog'):
+                    points[winner]['SO'] += 1
+                    points[loser]['SO'] += 1
 
                 points[teamA]['runsScored'] += teamARuns
                 points[teamB]['runsScored'] += teamBRuns
@@ -312,7 +349,7 @@ def run_tournament():
 
                 display_points_table()
                 display_top_players()
-                input("Press Enter to continue to the next match...")
+                input(f"Match {team1.upper()} vs {team2.upper()} finished. Press Enter to continue...")
 
             except Exception as e:
                 print(f"Error during match {team1.upper()} vs {team2.upper()}: {str(e)}")
@@ -331,9 +368,9 @@ def run_tournament():
 
             res = game(False, team1.lower(), team2.lower(), matchtag)
 
-            for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key in [
-                ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker'),
-                ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker')
+            for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key, fow_key in [
+                ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker', 'innings1Fow'),
+                ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker', 'innings2Fow')
             ]:
                 display_ball_by_ball(
                     res[innings],
@@ -343,7 +380,8 @@ def run_tournament():
                     res[balls_key],
                     max([event['wickets'] for event in res[innings]], default=0),
                     res[bat_tracker_key],
-                    res[bowl_tracker_key]
+                    res[bowl_tracker_key],
+                    res.get(fow_key)
                 )
 
             if res.get('superOverLog'):
