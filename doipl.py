@@ -1,3 +1,69 @@
+def display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data=None):
+    batsmanTabulate = []
+    for player in bat_tracker:
+        data = bat_tracker[player]
+        runs = data['runs']
+        balls = data['balls']
+        sr = round((runs / balls) * 100, 2) if balls else 0
+        how_out = "Not out"
+        batted = False
+        for log in data['ballLog']:
+            batted = True
+            if "W" in log:
+                if "CaughtBy" in log:
+                    parts = log.split("-")
+                    how_out = f"c {parts[2]} b {parts[4]}"
+                elif "runout" in log:
+                    how_out = "run out"
+                else:
+                    parts = log.split("-")
+                    how_out = f"{parts[1]} b {parts[2]}" if len(parts) > 2 else "out"
+                break
+        if batted or balls > 0:
+            batsmanTabulate.append([player, runs, balls, sr, how_out])
+    print(f"\n--- {team_name.upper()} Scorecard ---")
+    print("\nBatting:")
+    print(tabulate(batsmanTabulate, headers=["Player", "Runs", "Balls", "SR", "How Out"], tablefmt="grid"))
+    bowlerTabulate = []
+    for player in bowl_tracker:
+        data = bowl_tracker[player]
+        overs = f"{data['balls'] // 6}.{data['balls'] % 6}"
+        eco = round((data['runs'] / data['balls']) * 6, 2) if data['balls'] else 0
+        bowlerTabulate.append([player, overs, data['runs'], data['wickets'], eco])
+    print("\nBowling:")
+    print(tabulate(bowlerTabulate, headers=["Player", "Overs", "Runs", "Wickets", "Economy"], tablefmt="grid"))
+    if fow_data:
+        print("\nFall of Wickets:")
+        print(", ".join([f"{f['wicket']}-{f['runs']} ({f['player']}, {f['over']} ov)" for f in fow_data]))
+
+def display_ball_by_ball(innings_log, innings_num, team_name, runs, balls, wickets, bat_tracker, bowl_tracker, fow_data=None):
+    print(f"\n--- Innings {innings_num}: {team_name} Batting ---")
+    GREEN, YELLOW, CYAN, MAGENTA, RED, BOLD, RESET = "\033[92m", "\033[93m", "\033[96m", "\033[95m", "\033[91m", "\033[1m", "\033[0m"
+    for event in innings_log:
+        outcome = str(event.get('outcome', '0'))
+        commentary = ""
+        if "wicket" in outcome or "W" in outcome:
+            commentary = random.choice(commentary_lines.get('out', ["Out!"]))
+        elif outcome == "6": commentary = random.choice(commentary_lines.get('6', ["Six!"]))
+        elif outcome == "4": commentary = random.choice(commentary_lines.get('4', ["Four!"]))
+        elif outcome == "0": commentary = random.choice(commentary_lines.get('0', ["No run."]))
+        else: commentary = random.choice(commentary_lines.get('1-3', ["Runs taken."]))
+        print(f"{event['event']} | {commentary}")
+        if 'batsman' in event and event['batsman'] in event['batterTracker']:
+            b_stats = event['batterTracker'][event['batsman']]
+            ball_runs = int(outcome) if outcome.isdigit() else 0
+            if b_stats['runs'] >= 100 and (b_stats['runs'] - ball_runs) < 100:
+                print(f"{MAGENTA}{BOLD}!!! HUNDRED FOR {event['batsman']} !!!{RESET}")
+            elif b_stats['runs'] >= 50 and (b_stats['runs'] - ball_runs) < 50:
+                print(f"{CYAN}{BOLD}!! FIFTY FOR {event['batsman']} !!{RESET}")
+        if 'bowler' in event and event['bowler'] in event['bowlerTracker']:
+            bl_stats = event['bowlerTracker'][event['bowler']]
+            if "wicket" in outcome or "W" in outcome:
+                if bl_stats['wickets'] == 5: print(f"{RED}{BOLD}***** 5-WICKET HAUL FOR {event['bowler']} *****{RESET}")
+                elif bl_stats['wickets'] == 3: print(f"{YELLOW}{BOLD}*** 3-WICKET HAUL FOR {event['bowler']} ***{RESET}")
+    print(f"\nInnings Total: {runs}/{wickets} in {balls // 6}.{balls % 6} overs")
+    display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data)
+
 import os
 import sys
 import random
@@ -100,7 +166,7 @@ def display_points_table():
         pointsTabulate.append(row)
     pointsTabulate = sorted(pointsTabulate, key=lambda x: (x[6], x[5]), reverse=True)
     print("\nCurrent Points Table:")
-    print(tabulate(pointsTabulate, headers=["Team", "Played", "Won", "Lost", "Super Over", "NRR", "Points"], tablefmt="grid"))
+    print(tabulate(pointsTabulate, headers=["Team", "P", "W", "L", "SO", "NRR", "Pts"], tablefmt="grid"))
 
 def display_top_players():
     battingTabulate = []
@@ -125,360 +191,255 @@ def display_top_players():
     print("\nTop 3 Bowlers:")
     print(tabulate(bowlingTabulate, headers=["Player", "Wickets", "Economy"], tablefmt="grid"))
 
-def display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data=None):
-    print(f"\n--- {team_name.upper()} Scorecard: Innings {innings_num} ---")
 
-    # Batting Scorecard
-    batsmanTabulate = []
-    for player in bat_tracker:
-        data = bat_tracker[player]
-        runs = data['runs']
-        balls = data['balls']
-        sr = round((runs / balls) * 100, 2) if balls else 'NA'
-        how_out = "DNB"
-        batted = False
-        for log in data['ballLog']:
-            batted = True
-            if "W" in log:
-                if "CaughtBy" in log:
-                    split_log = log.split("-")
-                    catcher = split_log[2]
-                    bowler = split_log[-1]
-                    how_out = f"c {catcher} b {bowler}"
-                elif "runout" in log:
-                    how_out = "Run out"
-                else:
-                    split_log = log.split("-")
-                    out_type = split_log[1]
-                    bowler = split_log[-1]
-                    how_out = f"{out_type} b {bowler}"
-                break
-            else:
-                how_out = "Not out" if balls > 0 else "DNB"
-        if batted or balls > 0:
-            batsmanTabulate.append([player, runs, balls, sr, how_out])
-
-    print("\nBatting:")
-    print(tabulate(batsmanTabulate, headers=["Player", "Runs", "Balls", "SR", "How Out"], tablefmt="grid"))
-
-    # Bowling Scorecard
-    bowlerTabulate = []
-    for player in bowl_tracker:
-        data = bowl_tracker[player]
-        runs = data['runs']
-        balls = data['balls']
-        wickets = data['wickets']
-        overs = f"{balls // 6}.{balls % 6}" if balls else "0.0"
-        economy = round((runs / balls) * 6, 2) if balls else 'NA'
-        bowlerTabulate.append([player, overs, runs, wickets, economy])
-
-    print("\nBowling:")
-    print(tabulate(bowlerTabulate, headers=["Player", "Overs", "Runs", "Wickets", "Economy"], tablefmt="grid"))
-
-    if fow_data:
-        print("\nFall of Wickets:")
-        fow_str = ", ".join([f"{f['wicket']}-{f['runs']} ({f['player']}, {f['over']} ov)" for f in fow_data])
-        print(fow_str)
-
-def display_ball_by_ball(innings_log, innings_num, team_name, runs, balls, wickets, bat_tracker, bowl_tracker, fow_data=None):
-    print(f"\n--- Innings {innings_num}: {team_name} Batting ---")
-
-    milestones_reached = set()
-
-    for event in innings_log:
-        outcome = str(event.get('outcome', '0'))
-        commentary_key = outcome if outcome in commentary_lines else ('wicket' if 'wicket' in outcome or 'W' in outcome else '0')
-        print(f"Ball {event['balls']}: {event['event']} - {random.choice(commentary_lines[commentary_key])}")
-
-        # Milestone celebrations
-        bt_name = event['batsman']
-        bt_stats = event.get('batterTracker', {}).get(bt_name)
-        if bt_stats:
-            bt_runs = bt_stats['runs']
-            if bt_runs >= 100 and (bt_name, 100) not in milestones_reached:
-                print(f"\033[1;32;4m***** HUNDRED FOR {bt_name}! What a magnificent innings! *****\033[0m")
-                milestones_reached.add((bt_name, 100))
-            elif bt_runs >= 50 and (bt_name, 50) not in milestones_reached:
-                print(f"\033[1;33m***** FIFTY FOR {bt_name}! Well played! *****\033[0m")
-                milestones_reached.add((bt_name, 50))
-
-        bl_name = event['bowler']
-        bl_stats = event.get('bowlerTracker', {}).get(bl_name)
-        if bl_stats:
-            bl_wickets = bl_stats['wickets']
-            if bl_wickets >= 5 and (bl_name, 5) not in milestones_reached:
-                print(f"\033[1;31;4m##### 5-WICKET HAUL FOR {bl_name}! Exceptional bowling! #####\033[0m")
-                milestones_reached.add((bl_name, 5))
-            elif bl_wickets >= 3 and (bl_name, 3) not in milestones_reached:
-                print(f"\033[1;36m##### 3-WICKET HAUL FOR {bl_name}! Great spell! #####\033[0m")
-                milestones_reached.add((bl_name, 3))
-
-    overs = f"{balls // 6}.{balls % 6}"
-    if innings_num != "SO":
-        print(f"\nInnings Total: {runs}/{wickets} in {overs} overs")
-        print(random.choice(commentary_lines['innings_end']))
-        display_scorecard(bat_tracker, bowl_tracker, team_name, innings_num, fow_data)
+teams = list(points.keys())
 
 def generate_schedule(teams):
-    all_matches = []
+    import random
+    base_matches = []
     for i in range(len(teams)):
         for j in range(i + 1, len(teams)):
-            all_matches.append((teams[i], teams[j]))
+            base_matches.append((teams[i], teams[j]))
+            base_matches.append((teams[j], teams[i]))
 
-    # Try to shuffle until constraint is met (no two consecutive matches for same team)
-    # This is a simple backtracking or retry approach
-    for _ in range(100):
-        random.shuffle(all_matches)
-        valid = True
-        for k in range(len(all_matches) - 1):
-            t1, t2 = all_matches[k]
-            t3, t4 = all_matches[k+1]
-            if t1 in (t3, t4) or t2 in (t3, t4):
-                valid = False
-                break
-        if valid:
-            return all_matches
-    return all_matches # fallback if hard to find
+    def is_valid(sched):
+        for i in range(len(sched) - 1):
+            if any(t in sched[i+1] for t in sched[i]):
+                return False
+        return True
 
-def run_tournament():
-    global battingf, bowlingf
+    for _ in range(10000):
+        random.shuffle(base_matches)
+        if is_valid(base_matches):
+            return base_matches
+    return base_matches
 
-    schedule = generate_schedule(teams)
-    print("\n--- IPL TOURNAMENT SCHEDULE ---")
-    schedule_table = []
-    for idx, (t1, t2) in enumerate(schedule):
-        schedule_table.append([f"Match {idx+1}", f"{t1.upper()} vs {t2.upper()}"])
-    print(tabulate(schedule_table, headers=["Match No", "Fixtures"], tablefmt="grid"))
-    input("\nPress Enter to start the league stage...")
+fixtures = generate_schedule(teams)
 
-    # League Matches
-    for team1, team2 in schedule:
-            print(f"\nMatch: {team1.upper()} vs {team2.upper()}")
+# League Matches
+for team1, team2 in fixtures:
 
-            try:
-                input(f"Press Enter to start {team1.upper()} vs {team2.upper()}...")
-                print(random.choice(commentary_lines['start']))
+        print(f"\nMatch: {team1.upper()} vs {team2.upper()}")
 
-                resList = game(False, team1, team2)
-
-                # Display ball-by-ball and innings summary for both innings
-                for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key, fow_key in [
-                    ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker', 'innings1Fow'),
-                    ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker', 'innings2Fow')
-                ]:
-                    display_ball_by_ball(
-                        resList[innings],
-                        1 if innings == 'innings1Log' else 2,
-                        resList[team_key],
-                        resList[runs_key],
-                        resList[balls_key],
-                        max([event['wickets'] for event in resList[innings]], default=0),
-                        resList[bat_tracker_key],
-                        resList[bowl_tracker_key],
-                        resList.get(fow_key)
-                    )
-
-                if resList.get('superOverLog'):
-                    print("\n--- SUPER OVER BALL-BY-BALL ---")
-                    display_ball_by_ball(resList['superOverLog'], "SO", "Teams", 0, 0, 0, {}, {})
-
-                print(f"\nResult: {resList['winMsg']}")
-                print(random.choice(commentary_lines['end']))
-
-                # Track batting/bowling format win
-                if "runs" in resList['winMsg']:
-                    battingf += 1
-                else:
-                    bowlingf += 1
-
-                # Update batting stats
-                for bat_map in [('innings1Battracker', 'innings1BatTeam'), ('innings2Battracker', 'innings2BatTeam')]:
-                    bat_tracker = resList[bat_map[0]]
-                    for player in bat_tracker:
-                        if player not in battingInfo:
-                            battingInfo[player] = copy.deepcopy(bat_tracker[player])
-                            battingInfo[player]['innings'] = 1
-                            battingInfo[player]['scoresArray'] = [int(battingInfo[player]['runs'])]
-                        else:
-                            battingInfo[player]['balls'] += bat_tracker[player]['balls']
-                            battingInfo[player]['runs'] += bat_tracker[player]['runs']
-                            battingInfo[player]['ballLog'] += bat_tracker[player]['ballLog']
-                            battingInfo[player]['innings'] += 1
-                            battingInfo[player]['scoresArray'].append(int(bat_tracker[player]['runs']))
-
-                # Update bowling stats
-                for bowl_map in [('innings1Bowltracker',), ('innings2Bowltracker',)]:
-                    bowl_tracker = resList[bowl_map[0]]
-                    for player in bowl_tracker:
-                        if player not in bowlingInfo:
-                            bowlingInfo[player] = copy.deepcopy(bowl_tracker[player])
-                            bowlingInfo[player]['matches'] = 1
-                        else:
-                            bowlingInfo[player]['balls'] += bowl_tracker[player]['balls']
-                            bowlingInfo[player]['runs'] += bowl_tracker[player]['runs']
-                            bowlingInfo[player]['ballLog'] += bowl_tracker[player]['ballLog']
-                            bowlingInfo[player]['wickets'] += bowl_tracker[player]['wickets']
-                            bowlingInfo[player]['matches'] += 1
-
-                # Points Table Update
-                teamA = resList['innings1BatTeam']
-                teamB = resList['innings2BatTeam']
-                teamARuns, teamABalls = resList['innings1Runs'], resList['innings1Balls']
-                teamBRuns, teamBBalls = resList['innings2Runs'], resList['innings2Balls']
-                winner = resList['winner']
-                loser = team1 if winner == team2 else team2
-
-                for t in [team1, team2]:
-                    points[t]['P'] += 1
-
-                points[winner]['W'] += 1
-                points[loser]['L'] += 1
-                points[winner]['pts'] += 2
-                if resList.get('superOverLog'):
-                    points[winner]['SO'] += 1
-                    points[loser]['SO'] += 1
-
-                points[teamA]['runsScored'] += teamARuns
-                points[teamB]['runsScored'] += teamBRuns
-                points[teamA]['runsConceded'] += teamBRuns
-                points[teamB]['runsConceded'] += teamARuns
-                points[teamA]['ballsFaced'] += teamABalls
-                points[teamB]['ballsFaced'] += teamBBalls
-                points[teamA]['ballsBowled'] += teamBBalls
-                points[teamB]['ballsBowled'] += teamABalls
-
-                display_points_table()
-                display_top_players()
-                input(f"Match {team1.upper()} vs {team2.upper()} finished. Press Enter to continue...")
-
-            except Exception as e:
-                print(f"Error during match {team1.upper()} vs {team2.upper()}: {str(e)}")
-                input("Press Enter to continue or Ctrl+C to exit...")
-                continue
-
-    # POINTS TABLE (Final)
-    display_points_table()
-
-    # === PLAYOFFS ===
-    def playoffs(team1, team2, matchtag):
-        print(f"\n{matchtag.upper()} - {team1.upper()} vs {team2.upper()}")
         try:
-            input("Press Enter to start the playoff match...")
+            input("Press Enter to start the match...")
+
             print(random.choice(commentary_lines['start']))
 
-            res = game(False, team1.lower(), team2.lower(), matchtag)
+            resList = game(False, team1, team2)
 
-            for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key, fow_key in [
-                ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker', 'innings1Fow'),
-                ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker', 'innings2Fow')
+            # Display ball-by-ball and innings summary for both innings
+            for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key in [
+                ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker'),
+                ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker')
             ]:
                 display_ball_by_ball(
-                    res[innings],
+                    resList[innings],
                     1 if innings == 'innings1Log' else 2,
-                    res[team_key],
-                    res[runs_key],
-                    res[balls_key],
-                    max([event['wickets'] for event in res[innings]], default=0),
-                    res[bat_tracker_key],
-                    res[bowl_tracker_key],
-                    res.get(fow_key)
+                    resList[team_key],
+                    resList[runs_key],
+                    resList[balls_key],
+                    max([event['wickets'] for event in resList[innings]], default=0),
+                    resList[bat_tracker_key],
+                    resList[bowl_tracker_key],
+                    resList.get('innings1Fow' if innings == 'innings1Log' else 'innings2Fow')
                 )
 
-            if res.get('superOverLog'):
-                print("\n--- SUPER OVER BALL-BY-BALL ---")
-                display_ball_by_ball(res['superOverLog'], "SO", "Teams", 0, 0, 0, {}, {})
-
-            print(f"\nResult: {res['winMsg'].upper()}")
+            print(f"\nResult: {resList['winMsg']}")
             print(random.choice(commentary_lines['end']))
 
-            winner = res['winner']
-            loser = team1 if winner == team2 else team2
+            # Track batting/bowling format win
+            if "runs" in resList['winMsg']:
+                battingf += 1
+            else:
+                bowlingf += 1
 
-            for bat_map in ['innings1Battracker', 'innings2Battracker']:
-                tracker = res[bat_map]
-                for player in tracker:
+            # Update batting stats
+            for bat_map in [('innings1Battracker', 'innings1BatTeam'), ('innings2Battracker', 'innings2BatTeam')]:
+                bat_tracker = resList[bat_map[0]]
+                for player in bat_tracker:
                     if player not in battingInfo:
-                        battingInfo[player] = copy.deepcopy(tracker[player])
+                        battingInfo[player] = copy.deepcopy(bat_tracker[player])
                         battingInfo[player]['innings'] = 1
                         battingInfo[player]['scoresArray'] = [int(battingInfo[player]['runs'])]
                     else:
-                        battingInfo[player]['balls'] += tracker[player]['balls']
-                        battingInfo[player]['runs'] += tracker[player]['runs']
-                        battingInfo[player]['ballLog'] += tracker[player]['ballLog']
+                        battingInfo[player]['balls'] += bat_tracker[player]['balls']
+                        battingInfo[player]['runs'] += bat_tracker[player]['runs']
+                        battingInfo[player]['ballLog'] += bat_tracker[player]['ballLog']
                         battingInfo[player]['innings'] += 1
-                        battingInfo[player]['scoresArray'].append(int(tracker[player]['runs']))
+                        battingInfo[player]['scoresArray'].append(int(bat_tracker[player]['runs']))
 
-            for bowl_map in ['innings1Bowltracker', 'innings2Bowltracker']:
-                tracker = res[bowl_map]
-                for player in tracker:
+            # Update bowling stats
+            for bowl_map in [('innings1Bowltracker',), ('innings2Bowltracker',)]:
+                bowl_tracker = resList[bowl_map[0]]
+                for player in bowl_tracker:
                     if player not in bowlingInfo:
-                        bowlingInfo[player] = copy.deepcopy(tracker[player])
+                        bowlingInfo[player] = copy.deepcopy(bowl_tracker[player])
                         bowlingInfo[player]['matches'] = 1
                     else:
-                        bowlingInfo[player]['balls'] += tracker[player]['balls']
-                        bowlingInfo[player]['runs'] += tracker[player]['runs']
-                        bowlingInfo[player]['ballLog'] += tracker[player]['ballLog']
-                        bowlingInfo[player]['wickets'] += tracker[player]['wickets']
+                        bowlingInfo[player]['balls'] += bowl_tracker[player]['balls']
+                        bowlingInfo[player]['runs'] += bowl_tracker[player]['runs']
+                        bowlingInfo[player]['ballLog'] += bowl_tracker[player]['ballLog']
+                        bowlingInfo[player]['wickets'] += bowl_tracker[player]['wickets']
                         bowlingInfo[player]['matches'] += 1
+
+
+            winner = resList['winner']
+            loser = team1 if winner == team2 else team2
+            for t in [team1, team2]: points[t]['P'] += 1
+            if len(resList.get('superOverLog', [])) > 0:
+                for t in [team1, team2]: points[t]['SO'] += 1
+            points[winner]['W'] += 1
+            points[loser]['L'] += 1
+            points[winner]['pts'] += 2
+
+
+
+
+            points[teamA]['runsScored'] += teamARuns
+            points[teamB]['runsScored'] += teamBRuns
+            points[teamA]['runsConceded'] += teamBRuns
+            points[teamB]['runsConceded'] += teamARuns
+            points[teamA]['ballsFaced'] += teamABalls
+            points[teamB]['ballsFaced'] += teamBBalls
+            points[teamA]['ballsBowled'] += teamBBalls
+            points[teamB]['ballsBowled'] += teamABalls
 
             display_points_table()
             display_top_players()
-            input("Press Enter to continue...")
-            return winner, loser
+
+            # Pause after match to keep console open
+            input("Press Enter to continue to the next match...")
 
         except Exception as e:
-            print(f"Error during {matchtag.upper()}: {str(e)}")
+            print(f"Error during match {team1.upper()} vs {team2.upper()}: {str(e)}")
             input("Press Enter to continue or Ctrl+C to exit...")
-            return team1, team2
+            continue
 
-    # PLAYOFF SEQUENCE
-    points_list = sorted(
-        [[team, points[team]['pts'], (points[team]['runsScored'] / points[team]['ballsFaced']) * 6 - (points[team]['runsConceded'] / points[team]['ballsBowled']) * 6]
-         for team in points],
-        key=lambda x: (x[1], x[2]), reverse=True
-    )
-    q1 = [points_list[0][0], points_list[1][0]]
-    elim = [points_list[2][0], points_list[3][0]]
+# POINTS TABLE (Final)
+display_points_table()
 
-    finalists = []
-    winnerQ1, loserQ1 = playoffs(q1[0], q1[1], "Qualifier 1")
-    finalists.append(winnerQ1)
-    winnerElim, _ = playoffs(elim[0], elim[1], "Eliminator")
-    winnerQ2, _ = playoffs(winnerElim, loserQ1, "Qualifier 2")
-    finalists.append(winnerQ2)
-    finalWinner, _ = playoffs(finalists[0], finalists[1], "Final")
-    print(f"\n🏆 {finalWinner.upper()} WINS THE IPL!!!")
+# === PLAYOFFS ===
+def playoffs(team1, team2, matchtag):
+    print(f"\n{matchtag.upper()} - {team1.upper()} vs {team2.upper()}")
+    try:
+        input("Press Enter to start the playoff match...")
+        print(random.choice(commentary_lines['start']))
 
-    # === SAVE FINAL STATS ===
-    batting_results = []
-    for b in battingInfo:
-        c = battingInfo[b]
-        outs = sum(1 for bl in c['ballLog'] if "W" in bl)
-        avg = round(c['runs'] / outs, 2) if outs else "NA"
-        sr = round((c['runs'] / c['balls']) * 100, 2) if c['balls'] else "NA"
-        batting_results.append([b, c['innings'], c['runs'], avg, max(c['scoresArray']), sr, c['balls']])
-    batting_results = sorted(batting_results, key=lambda x: x[2], reverse=True)
+        res = game(False, team1.lower(), team2.lower(), matchtag)
 
-    bowling_results = []
-    for b in bowlingInfo:
-        c = bowlingInfo[b]
-        overs = f"{c['balls'] // 6}.{c['balls'] % 6}" if c['balls'] else "0"
-        economy = round((c['runs'] / c['balls']) * 6, 2) if c['balls'] else "NA"
-        bowling_results.append([b, c['wickets'], overs, c['runs'], economy])
-    bowling_results = sorted(bowling_results, key=lambda x: x[1], reverse=True)
+        for innings, team_key, runs_key, balls_key, bat_tracker_key, bowl_tracker_key in [
+            ('innings1Log', 'innings1BatTeam', 'innings1Runs', 'innings1Balls', 'innings1Battracker', 'innings1Bowltracker'),
+            ('innings2Log', 'innings2BatTeam', 'innings2Runs', 'innings2Balls', 'innings2Battracker', 'innings2Bowltracker')
+        ]:
+            display_ball_by_ball(
+                res[innings],
+                1 if innings == 'innings1Log' else 2,
+                res[team_key],
+                res[runs_key],
+                res[balls_key],
+                max([event['wickets'] for event in res[innings]], default=0),
+                res[bat_tracker_key],
+                res[bowl_tracker_key]
+            )
 
-    with open(os.path.join(dir_path, "batStats.txt"), "w") as f:
-        sys.stdout = f
-        print(tabulate(batting_results, headers=["Player", "Innings", "Runs", "Average", "Highest", "SR", "Balls"], tablefmt="grid"))
-        sys.stdout = sys.__stdout__
+        print(f"\nResult: {res['winMsg'].upper()}")
+        print(random.choice(commentary_lines['end']))
 
-    with open(os.path.join(dir_path, "bowlStats.txt"), "w") as f:
-        sys.stdout = f
-        print(tabulate(bowling_results, headers=["Player", "Wickets", "Overs", "Runs Conceded", "Economy"], tablefmt="grid"))
-        sys.stdout = sys.__stdout__
+        winner = res['winner']
+        loser = team1 if winner == team2 else team2
 
-    print("bat", battingf, "bowl", bowlingf)
-    input("\nPress Enter to exit...")
+        for bat_map in ['innings1Battracker', 'innings2Battracker']:
+            tracker = res[bat_map]
+            for player in tracker:
+                if player not in battingInfo:
+                    battingInfo[player] = copy.deepcopy(tracker[player])
+                    battingInfo[player]['innings'] = 1
+                    battingInfo[player]['scoresArray'] = [int(tracker[player]['runs'])]
+                else:
+                    battingInfo[player]['balls'] += tracker[player]['balls']
+                    battingInfo[player]['runs'] += tracker[player]['runs']
+                    battingInfo[player]['ballLog'] += tracker[player]['ballLog']
+                    battingInfo[player]['innings'] += 1
+                    battingInfo[player]['scoresArray'].append(int(tracker[player]['runs']))
 
-if __name__ == "__main__":
-    run_tournament()
+        for bowl_map in ['innings1Bowltracker', 'innings2Bowltracker']:
+            tracker = res[bowl_map]
+            for player in tracker:
+                if player not in bowlingInfo:
+                    bowlingInfo[player] = copy.deepcopy(tracker[player])
+                    bowlingInfo[player]['matches'] = 1
+                else:
+                    bowlingInfo[player]['balls'] += tracker[player]['balls']
+                    bowlingInfo[player]['runs'] += tracker[player]['runs']
+                    bowlingInfo[player]['ballLog'] += tracker[player]['ballLog']
+                    bowlingInfo[player]['wickets'] += tracker[player]['wickets']
+                    bowlingInfo[player]['matches'] += 1
+
+        display_points_table()
+        display_top_players()
+
+        # Pause after playoff match
+        input("Press Enter to continue...")
+
+        return winner, loser
+
+    except Exception as e:
+        print(f"Error during {matchtag.upper()}: {str(e)}")
+        input("Press Enter to continue or Ctrl+C to exit...")
+        return team1, team2  # Default to team1 as winner to continue playoffs
+
+# PLAYOFF SEQUENCE
+pointsTabulate = sorted(
+    [[team, points[team]['pts'], (points[team]['runsScored'] / points[team]['ballsFaced']) * 6 - (points[team]['runsConceded'] / points[team]['ballsBowled']) * 6]
+     for team in points],
+    key=lambda x: (x[1], x[2]), reverse=True
+)
+q1 = [pointsTabulate[0][0], pointsTabulate[1][0]]
+elim = [pointsTabulate[2][0], pointsTabulate[3][0]]
+
+finalists = []
+
+winnerQ1, loserQ1 = playoffs(q1[0], q1[1], "Qualifier 1")
+finalists.append(winnerQ1)
+
+winnerElim, _ = playoffs(elim[0], elim[1], "Eliminator")
+
+winnerQ2, _ = playoffs(winnerElim, loserQ1, "Qualifier 2")
+finalists.append(winnerQ2)
+
+finalWinner, _ = playoffs(finalists[0], finalists[1], "Final")
+print(f"\n🏆 {finalWinner.upper()} WINS THE IPL!!!")
+
+# === SAVE FINAL STATS ===
+battingTabulate = []
+for b in battingInfo:
+    c = battingInfo[b]
+    outs = sum(1 for bl in c['ballLog'] if "W" in bl)
+    avg = round(c['runs'] / outs, 2) if outs else "NA"
+    sr = round((c['runs'] / c['balls']) * 100, 2) if c['balls'] else "NA"
+    battingTabulate.append([b, c['innings'], c['runs'], avg, max(c['scoresArray']), sr, c['balls']])
+
+battingTabulate = sorted(battingTabulate, key=lambda x: x[2], reverse=True)
+
+bowlingTabulate = []
+for b in bowlingInfo:
+    c = bowlingInfo[b]
+    overs = f"{c['balls'] // 6}.{c['balls'] % 6}" if c['balls'] else "0"
+    economy = round((c['runs'] / c['balls']) * 6, 2) if c['balls'] else "NA"
+    bowlingTabulate.append([b, c['wickets'], overs, c['runs'], economy])
+
+bowlingTabulate = sorted(bowlingTabulate, key=lambda x: x[1], reverse=True)
+
+with open(os.path.join(dir_path, "batStats.txt"), "w") as f:
+    sys.stdout = f
+    print(tabulate(battingTabulate, headers=["Player", "Innings", "Runs", "Average", "Highest", "SR", "Balls"], tablefmt="grid"))
+    sys.stdout = sys.__stdout__
+
+with open(os.path.join(dir_path, "bowlStats.txt"), "w") as f:
+    sys.stdout = f
+    print(tabulate(bowlingTabulate, headers=["Player", "Wickets", "Overs", "Runs Conceded", "Economy"], tablefmt="grid"))
+    sys.stdout = sys.__stdout__
+
+print("bat", battingf, "bowl", bowlingf)
+input("\nPress Enter to exit...")
