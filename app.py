@@ -131,8 +131,7 @@ def generate_scorecard():
             "innings2Wickets": wickets2_fallen, "innings2Balls": match_results.get("innings2Balls", 0),
             "innings2Battracker": innings2_battracker_processed, "innings2Bowltracker": match_results.get("innings2Bowltracker"),
             "winMsg": match_results.get("winMsg"), "winner": match_results.get("winner"),
-            "innings1Log": match_results.get("innings1Log"), "innings2Log": match_results.get("innings2Log"),
-            "superOverLog": match_results.get("superOverLog")
+            "innings1Log": match_results.get("innings1Log"), "innings2Log": match_results.get("innings2Log")
         }
         return render_template('index.html', teams=teams_data, scorecard_data=scorecard_data_for_template)
 
@@ -149,7 +148,6 @@ def generate_scorecard():
             "toss_msg": match_results.get("tossMsg"), "team1_code": team1_code, "team2_code": team2_code,
             "team1_data": team1_full_data, "team2_data": team2_full_data,
             "innings1_log": match_results.get("innings1Log", []), "innings2_log": match_results.get("innings2Log", []),
-            "super_over_log": match_results.get("superOverLog", []),
             "innings1_bat_team": match_results.get("innings1BatTeam"), "innings2_bat_team": match_results.get("innings2BatTeam"),
             "innings1_runs": match_results.get("innings1Runs"), "innings1_wickets": wickets1_fallen,
             "innings1_balls": match_results.get("innings1Balls", 0),
